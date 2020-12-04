@@ -1,0 +1,2960 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ce0baba51025461fab66c2f223a55037 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ce0baba51025461fab66c2f223a55037" ></div>
+        
+</body>
+<script>    
+    
+            var map_ce0baba51025461fab66c2f223a55037 = L.map(
+                "map_ce0baba51025461fab66c2f223a55037",
+                {
+                    center: [55.94712128756579, -3.2018616089868424],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8b0d98058b4d4b04af8791e1a1a4177e = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ce0baba51025461fab66c2f223a55037);
+        
+    
+            var marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f = L.markerClusterGroup(
+                {}
+            );
+            map_ce0baba51025461fab66c2f223a55037.addLayer(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+            var marker_5d4c183076b24a988dcb2909216f0629 = L.marker(
+                [55.966842, -3.207415],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_30642e7166ca42b8b746394e9bd5c47b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_299ff17e03914feab00d4d046ccb3862 = $(`<div id="html_299ff17e03914feab00d4d046ccb3862" style="width: 100.0%; height: 100.0%;">Monument to Carl Linnaeus:1</div>`)[0];
+            popup_30642e7166ca42b8b746394e9bd5c47b.setContent(html_299ff17e03914feab00d4d046ccb3862);
+        
+
+        marker_5d4c183076b24a988dcb2909216f0629.bindPopup(popup_30642e7166ca42b8b746394e9bd5c47b)
+        ;
+
+        
+    
+    
+            var marker_48909647fc0741dab38fd9a717e0ea14 = L.marker(
+                [55.9492, -3.1905],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_45ff6a344a0e439d88d91d135e8fcf44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b772b25071b04d0a87c0c4035584dc05 = $(`<div id="html_b772b25071b04d0a87c0c4035584dc05" style="width: 100.0%; height: 100.0%;">Charles II:1</div>`)[0];
+            popup_45ff6a344a0e439d88d91d135e8fcf44.setContent(html_b772b25071b04d0a87c0c4035584dc05);
+        
+
+        marker_48909647fc0741dab38fd9a717e0ea14.bindPopup(popup_45ff6a344a0e439d88d91d135e8fcf44)
+        ;
+
+        
+    
+    
+            var marker_69c006cf97b54450b93ea2cf284eb8d8 = L.marker(
+                [55.9548, -3.1830000000000003],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_3fab2b264ac54c08901230bb1a10c1c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88d67bd0cde344f4a5734c1318ec0a89 = $(`<div id="html_88d67bd0cde344f4a5734c1318ec0a89" style="width: 100.0%; height: 100.0%;">Monument to John Playfair:1</div>`)[0];
+            popup_3fab2b264ac54c08901230bb1a10c1c2.setContent(html_88d67bd0cde344f4a5734c1318ec0a89);
+        
+
+        marker_69c006cf97b54450b93ea2cf284eb8d8.bindPopup(popup_3fab2b264ac54c08901230bb1a10c1c2)
+        ;
+
+        
+    
+    
+            var marker_f72b5e0e403c4d5395472a2f11c7fcb5 = L.marker(
+                [55.9545, -3.1845],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_342b0e7d69da4d5e82bc13047d4836b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da1b13d9d1c1498aadacd3180dd6c878 = $(`<div id="html_da1b13d9d1c1498aadacd3180dd6c878" style="width: 100.0%; height: 100.0%;">Monument to Dugald Stewart:1</div>`)[0];
+            popup_342b0e7d69da4d5e82bc13047d4836b7.setContent(html_da1b13d9d1c1498aadacd3180dd6c878);
+        
+
+        marker_f72b5e0e403c4d5395472a2f11c7fcb5.bindPopup(popup_342b0e7d69da4d5e82bc13047d4836b7)
+        ;
+
+        
+    
+    
+            var marker_05f1769e5a3b468da63fa831d3333ede = L.marker(
+                [55.9535, -3.1783],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_c59b45dd63404b80872199e4a8a14d70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63699fd0f0324d23aeff68dd8108fadc = $(`<div id="html_63699fd0f0324d23aeff68dd8108fadc" style="width: 100.0%; height: 100.0%;">Monument to Robert Burns:1</div>`)[0];
+            popup_c59b45dd63404b80872199e4a8a14d70.setContent(html_63699fd0f0324d23aeff68dd8108fadc);
+        
+
+        marker_05f1769e5a3b468da63fa831d3333ede.bindPopup(popup_c59b45dd63404b80872199e4a8a14d70)
+        ;
+
+        
+    
+    
+            var marker_1fcc005568cc4462bfb59e6174eaaaee = L.marker(
+                [55.9534, -3.1858],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_756c16456eb24aee999b17b0c4fd866f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fb17352cb4949c4b8053e17c6d98453 = $(`<div id="html_2fb17352cb4949c4b8053e17c6d98453" style="width: 100.0%; height: 100.0%;">Political Martyrs' Monument:1</div>`)[0];
+            popup_756c16456eb24aee999b17b0c4fd866f.setContent(html_2fb17352cb4949c4b8053e17c6d98453);
+        
+
+        marker_1fcc005568cc4462bfb59e6174eaaaee.bindPopup(popup_756c16456eb24aee999b17b0c4fd866f)
+        ;
+
+        
+    
+    
+            var marker_d984df149b71458b84213d3218cb25e8 = L.marker(
+                [55.9535, -3.1861],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_b7390056e5954c84b48e18c5fc3cf857 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e2175c37e3348509237e81f1d42d79a = $(`<div id="html_4e2175c37e3348509237e81f1d42d79a" style="width: 100.0%; height: 100.0%;">Scottish-American Soldiers' Monument:1</div>`)[0];
+            popup_b7390056e5954c84b48e18c5fc3cf857.setContent(html_4e2175c37e3348509237e81f1d42d79a);
+        
+
+        marker_d984df149b71458b84213d3218cb25e8.bindPopup(popup_b7390056e5954c84b48e18c5fc3cf857)
+        ;
+
+        
+    
+    
+            var marker_099546312be04db3a5ad4d0fd630409e = L.marker(
+                [55.90468, -3.238737],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_2be37e84a2ec4382bf1448a479dd8a4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f131a8f2b824917980ecc2d7d39a647 = $(`<div id="html_6f131a8f2b824917980ecc2d7d39a647" style="width: 100.0%; height: 100.0%;">Covenanters’ Memorial:1</div>`)[0];
+            popup_2be37e84a2ec4382bf1448a479dd8a4b.setContent(html_6f131a8f2b824917980ecc2d7d39a647);
+        
+
+        marker_099546312be04db3a5ad4d0fd630409e.bindPopup(popup_2be37e84a2ec4382bf1448a479dd8a4b)
+        ;
+
+        
+    
+    
+            var marker_15d96731cd3741ff9d3f2cfd9c04bdd9 = L.marker(
+                [55.9571, -3.1372],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_548669b6a99844c1b58890e6f3178601 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a13e9ad297ed40aaa231d4d2a2dde98f = $(`<div id="html_a13e9ad297ed40aaa231d4d2a2dde98f" style="width: 100.0%; height: 100.0%;">Mausoleum of William Henry Miller:1</div>`)[0];
+            popup_548669b6a99844c1b58890e6f3178601.setContent(html_a13e9ad297ed40aaa231d4d2a2dde98f);
+        
+
+        marker_15d96731cd3741ff9d3f2cfd9c04bdd9.bindPopup(popup_548669b6a99844c1b58890e6f3178601)
+        ;
+
+        
+    
+    
+            var marker_2f6a04a77c754a1cb9870be3947f05af = L.marker(
+                [55.9754, -3.1668],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_39863b6661b24769865d2ebd2d3d2de3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28a1195dca5a40c2804306f351ddd24c = $(`<div id="html_28a1195dca5a40c2804306f351ddd24c" style="width: 100.0%; height: 100.0%;">Robert Burns:1</div>`)[0];
+            popup_39863b6661b24769865d2ebd2d3d2de3.setContent(html_28a1195dca5a40c2804306f351ddd24c);
+        
+
+        marker_2f6a04a77c754a1cb9870be3947f05af.bindPopup(popup_39863b6661b24769865d2ebd2d3d2de3)
+        ;
+
+        
+    
+    
+            var marker_5bef7576cf0e497094c18e141a0929bd = L.marker(
+                [55.9545, -3.1917],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_a7d5b5d7cda644eda1f762b5c137d7cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0afaac5c7c67466880499761b5c8494f = $(`<div id="html_0afaac5c7c67466880499761b5c8494f" style="width: 100.0%; height: 100.0%;">John Hope, 4th Earl of Hopetoun:1</div>`)[0];
+            popup_a7d5b5d7cda644eda1f762b5c137d7cc.setContent(html_0afaac5c7c67466880499761b5c8494f);
+        
+
+        marker_5bef7576cf0e497094c18e141a0929bd.bindPopup(popup_a7d5b5d7cda644eda1f762b5c137d7cc)
+        ;
+
+        
+    
+    
+            var marker_e198cb87e4934a7c80c577fe4eb14b8b = L.marker(
+                [55.9542, -3.1932],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f54a6a11112c4f4d99cab4b1c377f38a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05fee7b32b254710a34deb848399cf70 = $(`<div id="html_05fee7b32b254710a34deb848399cf70" style="width: 100.0%; height: 100.0%;">Monument to Henry Dundas, 1st Viscount Melville:1</div>`)[0];
+            popup_f54a6a11112c4f4d99cab4b1c377f38a.setContent(html_05fee7b32b254710a34deb848399cf70);
+        
+
+        marker_e198cb87e4934a7c80c577fe4eb14b8b.bindPopup(popup_f54a6a11112c4f4d99cab4b1c377f38a)
+        ;
+
+        
+    
+    
+            var marker_22edeb113f66464b8a98a0136563fdba = L.marker(
+                [55.9535, -3.1973],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_b66284ab3938481ba622406a22b5bd4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7f00e6ad98a44c7839180200c12e6ae = $(`<div id="html_f7f00e6ad98a44c7839180200c12e6ae" style="width: 100.0%; height: 100.0%;">George IV:1</div>`)[0];
+            popup_b66284ab3938481ba622406a22b5bd4c.setContent(html_f7f00e6ad98a44c7839180200c12e6ae);
+        
+
+        marker_22edeb113f66464b8a98a0136563fdba.bindPopup(popup_b66284ab3938481ba622406a22b5bd4c)
+        ;
+
+        
+    
+    
+            var marker_301084cb26134ec0989d69f48ff34321 = L.marker(
+                [55.953, -3.2004],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_a4febba3226c4044a2ae3da09d1ad6af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e39009dbf8d84a6eb1e72456188349b9 = $(`<div id="html_e39009dbf8d84a6eb1e72456188349b9" style="width: 100.0%; height: 100.0%;">William Pitt the Younger:1</div>`)[0];
+            popup_a4febba3226c4044a2ae3da09d1ad6af.setContent(html_e39009dbf8d84a6eb1e72456188349b9);
+        
+
+        marker_301084cb26134ec0989d69f48ff34321.bindPopup(popup_a4febba3226c4044a2ae3da09d1ad6af)
+        ;
+
+        
+    
+    
+            var marker_7f23103ebf074183bfd2bf1c8a362000 = L.marker(
+                [55.9518, -3.2077],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_85f41404cfee4da1aa63917cae9e4e69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99421f0f40c34b5e96d3be4ff2f7311b = $(`<div id="html_99421f0f40c34b5e96d3be4ff2f7311b" style="width: 100.0%; height: 100.0%;">Memorial to Albert, Prince Consort:1</div>`)[0];
+            popup_85f41404cfee4da1aa63917cae9e4e69.setContent(html_99421f0f40c34b5e96d3be4ff2f7311b);
+        
+
+        marker_7f23103ebf074183bfd2bf1c8a362000.bindPopup(popup_85f41404cfee4da1aa63917cae9e4e69)
+        ;
+
+        
+    
+    
+            var marker_48b65fcfaaf14cd3a5ff794bbbe5847b = L.marker(
+                [55.9532, -3.2076],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_3bb534ca034e447db011992ce5b20730 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c6748850f6c4e61a0893953d12c4a17 = $(`<div id="html_0c6748850f6c4e61a0893953d12c4a17" style="width: 100.0%; height: 100.0%;">Monument to Catherine Sinclair:1</div>`)[0];
+            popup_3bb534ca034e447db011992ce5b20730.setContent(html_0c6748850f6c4e61a0893953d12c4a17);
+        
+
+        marker_48b65fcfaaf14cd3a5ff794bbbe5847b.bindPopup(popup_3bb534ca034e447db011992ce5b20730)
+        ;
+
+        
+    
+    
+            var marker_e1c4f9e75d2947e9870241e56a44c62b = L.marker(
+                [55.9525, -3.2035],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_63687380767546e3940a941b5f3810e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efe9f8450d7c465daba8b71293742535 = $(`<div id="html_efe9f8450d7c465daba8b71293742535" style="width: 100.0%; height: 100.0%;">Thomas Chalmers:1</div>`)[0];
+            popup_63687380767546e3940a941b5f3810e4.setContent(html_efe9f8450d7c465daba8b71293742535);
+        
+
+        marker_e1c4f9e75d2947e9870241e56a44c62b.bindPopup(popup_63687380767546e3940a941b5f3810e4)
+        ;
+
+        
+    
+    
+            var marker_126acf71ff314e6b9f4c53997c7bd226 = L.marker(
+                [55.9501, -3.1903],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_64ec832c659347fe8f8c2881e85ddbae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0de29a0436d14969b1ac25057e80a948 = $(`<div id="html_0de29a0436d14969b1ac25057e80a948" style="width: 100.0%; height: 100.0%;">Alexander and Bucephalus:1</div>`)[0];
+            popup_64ec832c659347fe8f8c2881e85ddbae.setContent(html_0de29a0436d14969b1ac25057e80a948);
+        
+
+        marker_126acf71ff314e6b9f4c53997c7bd226.bindPopup(popup_64ec832c659347fe8f8c2881e85ddbae)
+        ;
+
+        
+    
+    
+            var marker_e98e820ab1a54bac82c2c604a500466b = L.marker(
+                [55.9489, -3.1979],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_05aad393593e4d75b646bc869cc17be8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3e743c0b09f4e5ea02ec3c0824c03b6 = $(`<div id="html_a3e743c0b09f4e5ea02ec3c0824c03b6" style="width: 100.0%; height: 100.0%;">Prince Frederick, Duke of York and Albany:1</div>`)[0];
+            popup_05aad393593e4d75b646bc869cc17be8.setContent(html_a3e743c0b09f4e5ea02ec3c0824c03b6);
+        
+
+        marker_e98e820ab1a54bac82c2c604a500466b.bindPopup(popup_05aad393593e4d75b646bc869cc17be8)
+        ;
+
+        
+    
+    
+            var marker_1a78f0f08ff0493cb130525bffa947ae = L.marker(
+                [55.949, -3.1969],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_9b14eff237c441369424ecfcd213947c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dea49a054ae44a7d9fe16aa3464a4089 = $(`<div id="html_dea49a054ae44a7d9fe16aa3464a4089" style="width: 100.0%; height: 100.0%;">78th Highlanders Memorial:1</div>`)[0];
+            popup_9b14eff237c441369424ecfcd213947c.setContent(html_dea49a054ae44a7d9fe16aa3464a4089);
+        
+
+        marker_1a78f0f08ff0493cb130525bffa947ae.bindPopup(popup_9b14eff237c441369424ecfcd213947c)
+        ;
+
+        
+    
+    
+            var marker_d41f1d37d38845079f0d80aa33ece55c = L.marker(
+                [55.9469, -3.1913],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_ce53fcb9861144ed91cc70510c5e1de3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90b055c65f22427685fdc5a4aa748637 = $(`<div id="html_90b055c65f22427685fdc5a4aa748637" style="width: 100.0%; height: 100.0%;">Greyfriars Bobby Fountain:1</div>`)[0];
+            popup_ce53fcb9861144ed91cc70510c5e1de3.setContent(html_90b055c65f22427685fdc5a4aa748637);
+        
+
+        marker_d41f1d37d38845079f0d80aa33ece55c.bindPopup(popup_ce53fcb9861144ed91cc70510c5e1de3)
+        ;
+
+        
+    
+    
+            var marker_763d84bf4cad48f3840950d15817302b = L.marker(
+                [55.9489, -3.1974],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_0fc5eab8441144928c68236c892b37c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e93ae398e9e4da598c4be05d694eb6e = $(`<div id="html_3e93ae398e9e4da598c4be05d694eb6e" style="width: 100.0%; height: 100.0%;">Monument to Colonel Douglas Mackenzie:1</div>`)[0];
+            popup_0fc5eab8441144928c68236c892b37c7.setContent(html_3e93ae398e9e4da598c4be05d694eb6e);
+        
+
+        marker_763d84bf4cad48f3840950d15817302b.bindPopup(popup_0fc5eab8441144928c68236c892b37c7)
+        ;
+
+        
+    
+    
+            var marker_0af89166447c43dcb51afdf83b87bebe = L.marker(
+                [55.9489, -3.1981],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_fe8311dea2da475fadb45883363230be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_828325e8bb3e44b9813bbf3ebd56bf9c = $(`<div id="html_828325e8bb3e44b9813bbf3ebd56bf9c" style="width: 100.0%; height: 100.0%;">72nd Highlanders Memorial:1</div>`)[0];
+            popup_fe8311dea2da475fadb45883363230be.setContent(html_828325e8bb3e44b9813bbf3ebd56bf9c);
+        
+
+        marker_0af89166447c43dcb51afdf83b87bebe.bindPopup(popup_fe8311dea2da475fadb45883363230be)
+        ;
+
+        
+    
+    
+            var marker_585fc0b8e0f243f6b60333041715dd20 = L.marker(
+                [55.9495, -3.1917],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_b6e04e5c533a4d1c881f55324c7488ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_716ad964b2a04fd6b92ed1fba692086f = $(`<div id="html_716ad964b2a04fd6b92ed1fba692086f" style="width: 100.0%; height: 100.0%;">Queensberry Memorial to Walter Montagu Douglas Scott, 5th Duke of Buccleuch:1</div>`)[0];
+            popup_b6e04e5c533a4d1c881f55324c7488ce.setContent(html_716ad964b2a04fd6b92ed1fba692086f);
+        
+
+        marker_585fc0b8e0f243f6b60333041715dd20.bindPopup(popup_b6e04e5c533a4d1c881f55324c7488ce)
+        ;
+
+        
+    
+    
+            var marker_6ffd305dd0574bed8716723a515a2963 = L.marker(
+                [55.94738, -3.1897900000000003],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_30e9da06de344428a4a0a980a9fdb7f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a034cddd7b846159d37cd2952fd3f83 = $(`<div id="html_1a034cddd7b846159d37cd2952fd3f83" style="width: 100.0%; height: 100.0%;">William Chambers:1</div>`)[0];
+            popup_30e9da06de344428a4a0a980a9fdb7f6.setContent(html_1a034cddd7b846159d37cd2952fd3f83);
+        
+
+        marker_6ffd305dd0574bed8716723a515a2963.bindPopup(popup_30e9da06de344428a4a0a980a9fdb7f6)
+        ;
+
+        
+    
+    
+            var marker_a0d84b05f4f548868ed9a4e2f891bd2f = L.marker(
+                [55.9496, -3.1951],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_4095d2c0ae5748118f9f0317be7cb1e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee54c05bf1f1422591bba181fc0db5ba = $(`<div id="html_ee54c05bf1f1422591bba181fc0db5ba" style="width: 100.0%; height: 100.0%;">John Knox:1</div>`)[0];
+            popup_4095d2c0ae5748118f9f0317be7cb1e5.setContent(html_ee54c05bf1f1422591bba181fc0db5ba);
+        
+
+        marker_a0d84b05f4f548868ed9a4e2f891bd2f.bindPopup(popup_4095d2c0ae5748118f9f0317be7cb1e5)
+        ;
+
+        
+    
+    
+            var marker_c061df14797743f59e9a989e1c7a3ea6 = L.marker(
+                [55.952399, -3.193304],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_752fc81be20c4330a870f5981e13d60c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88c8687ef998421c91592cdeb6e6ddbb = $(`<div id="html_88c8687ef998421c91592cdeb6e6ddbb" style="width: 100.0%; height: 100.0%;">Sir Walter Scott:1</div>`)[0];
+            popup_752fc81be20c4330a870f5981e13d60c.setContent(html_88c8687ef998421c91592cdeb6e6ddbb);
+        
+
+        marker_c061df14797743f59e9a989e1c7a3ea6.bindPopup(popup_752fc81be20c4330a870f5981e13d60c)
+        ;
+
+        
+    
+    
+            var marker_3837352c167e4555bd47d4355d3299ac = L.marker(
+                [55.9535, -3.1892],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_4a02d8b7b3204e46a2fbc3e9a2584ca8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f06f71a5a8f4b528790d212bd9c7287 = $(`<div id="html_0f06f71a5a8f4b528790d212bd9c7287" style="width: 100.0%; height: 100.0%;">Arthur Wellesley, 1st Duke of Wellington:1</div>`)[0];
+            popup_4a02d8b7b3204e46a2fbc3e9a2584ca8.setContent(html_0f06f71a5a8f4b528790d212bd9c7287);
+        
+
+        marker_3837352c167e4555bd47d4355d3299ac.bindPopup(popup_4a02d8b7b3204e46a2fbc3e9a2584ca8)
+        ;
+
+        
+    
+    
+            var marker_21a5217d75b946bc8d2b00abb57891ff = L.marker(
+                [55.9517, -3.1973],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_19159a04b27b41b2953ddedf59ede8b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24fe57d1df1b4794a761a818319808ec = $(`<div id="html_24fe57d1df1b4794a761a818319808ec" style="width: 100.0%; height: 100.0%;">Allan Ramsay:1</div>`)[0];
+            popup_19159a04b27b41b2953ddedf59ede8b0.setContent(html_24fe57d1df1b4794a761a818319808ec);
+        
+
+        marker_21a5217d75b946bc8d2b00abb57891ff.bindPopup(popup_19159a04b27b41b2953ddedf59ede8b0)
+        ;
+
+        
+    
+    
+            var marker_e3874e59a95d44119fbd2dbbb1985f9e = L.marker(
+                [55.951, -3.1983],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_970d9ccfc99c474c845237f89791e0de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62f9909468d94b789e732434f9d95469 = $(`<div id="html_62f9909468d94b789e732434f9d95469" style="width: 100.0%; height: 100.0%;">The genius of architecture crowning the theory and practice of art:1</div>`)[0];
+            popup_970d9ccfc99c474c845237f89791e0de.setContent(html_62f9909468d94b789e732434f9d95469);
+        
+
+        marker_e3874e59a95d44119fbd2dbbb1985f9e.bindPopup(popup_970d9ccfc99c474c845237f89791e0de)
+        ;
+
+        
+    
+    
+            var marker_a5f165d68a244e6695557ed53a39fd66 = L.marker(
+                [55.95005, -3.202994],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_6d95dfc076b543dd87b5cef1e51c72f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_817b7c9161fe414aa489a60ce3d67eab = $(`<div id="html_817b7c9161fe414aa489a60ce3d67eab" style="width: 100.0%; height: 100.0%;">Ross Fountain:1</div>`)[0];
+            popup_6d95dfc076b543dd87b5cef1e51c72f8.setContent(html_817b7c9161fe414aa489a60ce3d67eab);
+        
+
+        marker_a5f165d68a244e6695557ed53a39fd66.bindPopup(popup_6d95dfc076b543dd87b5cef1e51c72f8)
+        ;
+
+        
+    
+    
+            var marker_dd8e6c4887e94b50b1e696963cfdcaa7 = L.marker(
+                [55.9521, -3.1951],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_1d575f1d79ec44afbdb9d156f8a544ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a75bebdb7f60474991eca73ae1257bfb = $(`<div id="html_a75bebdb7f60474991eca73ae1257bfb" style="width: 100.0%; height: 100.0%;">John Wilson:1</div>`)[0];
+            popup_1d575f1d79ec44afbdb9d156f8a544ad.setContent(html_a75bebdb7f60474991eca73ae1257bfb);
+        
+
+        marker_dd8e6c4887e94b50b1e696963cfdcaa7.bindPopup(popup_1d575f1d79ec44afbdb9d156f8a544ad)
+        ;
+
+        
+    
+    
+            var marker_4b6f74dc88174d7ebf8c6879554a5536 = L.marker(
+                [55.9525, -3.1927],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_7b4dac1ee63e456182e3a52f8028ba3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0daf9f9c51d4b60aff59a20f7df690f = $(`<div id="html_f0daf9f9c51d4b60aff59a20f7df690f" style="width: 100.0%; height: 100.0%;">David Livingstone:1</div>`)[0];
+            popup_7b4dac1ee63e456182e3a52f8028ba3a.setContent(html_f0daf9f9c51d4b60aff59a20f7df690f);
+        
+
+        marker_4b6f74dc88174d7ebf8c6879554a5536.bindPopup(popup_7b4dac1ee63e456182e3a52f8028ba3a)
+        ;
+
+        
+    
+    
+            var marker_38d3a6e68c8d41eaa6652f4ddaec664d = L.marker(
+                [55.9522, -3.1944],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_d30a094ae15347caaa88517f3795bc54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bec0da4beae468f8024faec444a942a = $(`<div id="html_6bec0da4beae468f8024faec444a942a" style="width: 100.0%; height: 100.0%;">Adam Black:1</div>`)[0];
+            popup_d30a094ae15347caaa88517f3795bc54.setContent(html_6bec0da4beae468f8024faec444a942a);
+        
+
+        marker_38d3a6e68c8d41eaa6652f4ddaec664d.bindPopup(popup_d30a094ae15347caaa88517f3795bc54)
+        ;
+
+        
+    
+    
+            var marker_fbb67a3573ae448d91e3bd1bcd8c0050 = L.marker(
+                [55.9504, -3.205],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_c3a88919a2334c23894b28d4e517600c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae6749dd8ec84d31b60296ceea65dbe4 = $(`<div id="html_ae6749dd8ec84d31b60296ceea65dbe4" style="width: 100.0%; height: 100.0%;">Sir James Young Simpson:1</div>`)[0];
+            popup_c3a88919a2334c23894b28d4e517600c.setContent(html_ae6749dd8ec84d31b60296ceea65dbe4);
+        
+
+        marker_fbb67a3573ae448d91e3bd1bcd8c0050.bindPopup(popup_c3a88919a2334c23894b28d4e517600c)
+        ;
+
+        
+    
+    
+            var marker_8b0835042b3446ab8e3aade0a99668f1 = L.marker(
+                [55.950264, -3.205931],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f6cb4bcb74694d6d852e2006dc1e687a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f480a6f115ef4386aab9acfd69e7922b = $(`<div id="html_f480a6f115ef4386aab9acfd69e7922b" style="width: 100.0%; height: 100.0%;">Memorial to Dean Edward Bannerman Ramsay:1</div>`)[0];
+            popup_f6cb4bcb74694d6d852e2006dc1e687a.setContent(html_f480a6f115ef4386aab9acfd69e7922b);
+        
+
+        marker_8b0835042b3446ab8e3aade0a99668f1.bindPopup(popup_f6cb4bcb74694d6d852e2006dc1e687a)
+        ;
+
+        
+    
+    
+            var marker_19d9b953ee084e419d320e0ee4a3b0e9 = L.marker(
+                [55.9093, -3.3200300000000005],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_325c6de43cf742dc8e929002437262ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d16356d490a6487189b35f065b399e5d = $(`<div id="html_d16356d490a6487189b35f065b399e5d" style="width: 100.0%; height: 100.0%;">James Watt:1</div>`)[0];
+            popup_325c6de43cf742dc8e929002437262ee.setContent(html_d16356d490a6487189b35f065b399e5d);
+        
+
+        marker_19d9b953ee084e419d320e0ee4a3b0e9.bindPopup(popup_325c6de43cf742dc8e929002437262ee)
+        ;
+
+        
+    
+    
+            var marker_387d40cd8b914d039291b63b37815655 = L.marker(
+                [55.9453, -3.1911],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_97cff47967f84b489d8b36b33323a057 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5762d0a704d848c9b2e5344d53bcd461 = $(`<div id="html_5762d0a704d848c9b2e5344d53bcd461" style="width: 100.0%; height: 100.0%;">Middle Meadow Walk Gatepiers:1</div>`)[0];
+            popup_97cff47967f84b489d8b36b33323a057.setContent(html_5762d0a704d848c9b2e5344d53bcd461);
+        
+
+        marker_387d40cd8b914d039291b63b37815655.bindPopup(popup_97cff47967f84b489d8b36b33323a057)
+        ;
+
+        
+    
+    
+            var marker_96f32527d2124007bb89f25fd0559be5 = L.marker(
+                [55.9403, -3.1833],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_84bd5ffa13d64e16a0dd5be5986d113b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e872c28459584ae2b87e7bd344ee65e4 = $(`<div id="html_e872c28459584ae2b87e7bd344ee65e4" style="width: 100.0%; height: 100.0%;">Melville Drive (east end) Ornamental Pillars:1</div>`)[0];
+            popup_84bd5ffa13d64e16a0dd5be5986d113b.setContent(html_e872c28459584ae2b87e7bd344ee65e4);
+        
+
+        marker_96f32527d2124007bb89f25fd0559be5.bindPopup(popup_84bd5ffa13d64e16a0dd5be5986d113b)
+        ;
+
+        
+    
+    
+            var marker_efbac90c9fcd4c22bc889db82f919a2b = L.marker(
+                [55.944818, -3.19043],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_607dc7ff4ae64f2f9ff96c0945834346 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7160c425d75b4268a56d449dc0d9c511 = $(`<div id="html_7160c425d75b4268a56d449dc0d9c511" style="width: 100.0%; height: 100.0%;">Memorial to Archbishop Archibald Tait:1</div>`)[0];
+            popup_607dc7ff4ae64f2f9ff96c0945834346.setContent(html_7160c425d75b4268a56d449dc0d9c511);
+        
+
+        marker_efbac90c9fcd4c22bc889db82f919a2b.bindPopup(popup_607dc7ff4ae64f2f9ff96c0945834346)
+        ;
+
+        
+    
+    
+            var marker_bab077c0271142e29835f49664180ec5 = L.marker(
+                [55.946, -3.1854],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_ba9240d323b44774891048bff3affa49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45ed20f9764648fa83a8e8b1a3bba359 = $(`<div id="html_45ed20f9764648fa83a8e8b1a3bba359" style="width: 100.0%; height: 100.0%;">Brassfounders’ Pillar:1</div>`)[0];
+            popup_ba9240d323b44774891048bff3affa49.setContent(html_45ed20f9764648fa83a8e8b1a3bba359);
+        
+
+        marker_bab077c0271142e29835f49664180ec5.bindPopup(popup_ba9240d323b44774891048bff3affa49)
+        ;
+
+        
+    
+    
+            var marker_671086285f154fdab4201df656aa379c = L.marker(
+                [55.942, -3.2003],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_675219d1e1eb4672a925e8a1cb908e53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75e8b580e67844dca2eeb990b8abae4e = $(`<div id="html_75e8b580e67844dca2eeb990b8abae4e" style="width: 100.0%; height: 100.0%;">Masons’ Pillars:1</div>`)[0];
+            popup_675219d1e1eb4672a925e8a1cb908e53.setContent(html_75e8b580e67844dca2eeb990b8abae4e);
+        
+
+        marker_671086285f154fdab4201df656aa379c.bindPopup(popup_675219d1e1eb4672a925e8a1cb908e53)
+        ;
+
+        
+    
+    
+            var marker_d9463ed2eb294255bdbb050a895408d9 = L.marker(
+                [55.9418, -3.1988],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_d7ec521d22ba4949a1cbef6d0c7c65d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d63ef8c9eeaf42e8abdad842dbd1c68f = $(`<div id="html_d63ef8c9eeaf42e8abdad842dbd1c68f" style="width: 100.0%; height: 100.0%;">Prince Albert Victor Sundial:1</div>`)[0];
+            popup_d7ec521d22ba4949a1cbef6d0c7c65d2.setContent(html_d63ef8c9eeaf42e8abdad842dbd1c68f);
+        
+
+        marker_d9463ed2eb294255bdbb050a895408d9.bindPopup(popup_d7ec521d22ba4949a1cbef6d0c7c65d2)
+        ;
+
+        
+    
+    
+            var marker_4f15a7c0f5c04092bebbe8e4fcb36771 = L.marker(
+                [55.945346, -3.188812],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_4783bf343b4c4d229d1ca245a03228d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a58eac7a7404433fbf292efd1902ede6 = $(`<div id="html_a58eac7a7404433fbf292efd1902ede6" style="width: 100.0%; height: 100.0%;">McEwan Lantern Pillar:1</div>`)[0];
+            popup_4783bf343b4c4d229d1ca245a03228d3.setContent(html_a58eac7a7404433fbf292efd1902ede6);
+        
+
+        marker_4f15a7c0f5c04092bebbe8e4fcb36771.bindPopup(popup_4783bf343b4c4d229d1ca245a03228d3)
+        ;
+
+        
+    
+    
+            var marker_1c875aaae57e4d99b228d20e5713a63a = L.marker(
+                [55.921773, -3.1717604],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_efba6d52cabc460ea42b3bd7db546864 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7922fc5adb924622bc6bd906f773ff29 = $(`<div id="html_7922fc5adb924622bc6bd906f773ff29" style="width: 100.0%; height: 100.0%;">Statue of David Brewster:1</div>`)[0];
+            popup_efba6d52cabc460ea42b3bd7db546864.setContent(html_7922fc5adb924622bc6bd906f773ff29);
+        
+
+        marker_1c875aaae57e4d99b228d20e5713a63a.bindPopup(popup_efba6d52cabc460ea42b3bd7db546864)
+        ;
+
+        
+    
+    
+            var marker_f49a494f0b4e488cbe5ce421294f76d0 = L.marker(
+                [55.9497, -3.2139],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_60cc43aac9a746c78f63938868765f0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6752556e7f8845449aa7c6e50515b135 = $(`<div id="html_6752556e7f8845449aa7c6e50515b135" style="width: 100.0%; height: 100.0%;">Robert Dundas, 2nd Viscount Melville:1</div>`)[0];
+            popup_60cc43aac9a746c78f63938868765f0c.setContent(html_6752556e7f8845449aa7c6e50515b135);
+        
+
+        marker_f49a494f0b4e488cbe5ce421294f76d0.bindPopup(popup_60cc43aac9a746c78f63938868765f0c)
+        ;
+
+        
+    
+    
+            var marker_6132330dc62f44cf952f464e3cc2cdde = L.marker(
+                [55.864532, -3.200328],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_b277e0a5e47b45f8b96ab4b0f96c5561 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb41d114548a49038c9641a32c5ce0b2 = $(`<div id="html_bb41d114548a49038c9641a32c5ce0b2" style="width: 100.0%; height: 100.0%;">Startled Horse Rising:1</div>`)[0];
+            popup_b277e0a5e47b45f8b96ab4b0f96c5561.setContent(html_bb41d114548a49038c9641a32c5ce0b2);
+        
+
+        marker_6132330dc62f44cf952f464e3cc2cdde.bindPopup(popup_b277e0a5e47b45f8b96ab4b0f96c5561)
+        ;
+
+        
+    
+    
+            var marker_e9f5295f451b4bc38b39a17c8b95843b = L.marker(
+                [55.865794, -3.2010389999999997],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_30a4afd170234d328ec7ff7433941ec7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03ad71a0f0464929bf1b5f6445847cb8 = $(`<div id="html_03ad71a0f0464929bf1b5f6445847cb8" style="width: 100.0%; height: 100.0%;">William Dick :1</div>`)[0];
+            popup_30a4afd170234d328ec7ff7433941ec7.setContent(html_03ad71a0f0464929bf1b5f6445847cb8);
+        
+
+        marker_e9f5295f451b4bc38b39a17c8b95843b.bindPopup(popup_30a4afd170234d328ec7ff7433941ec7)
+        ;
+
+        
+    
+    
+            var marker_c9c75ea4c3fe461bbf9cbaac81aba8dd = L.marker(
+                [55.964916, -3.2043779999999997],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_1639d46877724d7d9fd87243140a507f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed57f3208b3249c49e0315d6814503dc = $(`<div id="html_ed57f3208b3249c49e0315d6814503dc" style="width: 100.0%; height: 100.0%;">Ascending Form (Gloria):1</div>`)[0];
+            popup_1639d46877724d7d9fd87243140a507f.setContent(html_ed57f3208b3249c49e0315d6814503dc);
+        
+
+        marker_c9c75ea4c3fe461bbf9cbaac81aba8dd.bindPopup(popup_1639d46877724d7d9fd87243140a507f)
+        ;
+
+        
+    
+    
+            var marker_5f789b770964455cab1b3d126e9a83aa = L.marker(
+                [55.964718, -3.206889],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_cd5a4723d19a4fa892cedab09aa8fd07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34ddc79aa7cf4dd99273b7d316326d4c = $(`<div id="html_34ddc79aa7cf4dd99273b7d316326d4c" style="width: 100.0%; height: 100.0%;">Rock Form (Porthcurno):1</div>`)[0];
+            popup_cd5a4723d19a4fa892cedab09aa8fd07.setContent(html_34ddc79aa7cf4dd99273b7d316326d4c);
+        
+
+        marker_5f789b770964455cab1b3d126e9a83aa.bindPopup(popup_cd5a4723d19a4fa892cedab09aa8fd07)
+        ;
+
+        
+    
+    
+            var marker_18340bb7b6df4c3bae5c221349a48c5a = L.marker(
+                [55.96508, -3.210991],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_fbaf064d024041c3b4ab45732caa885e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c403938c9a14dc8ad4586db93a33723 = $(`<div id="html_4c403938c9a14dc8ad4586db93a33723" style="width: 100.0%; height: 100.0%;">Umbra solis:1</div>`)[0];
+            popup_fbaf064d024041c3b4ab45732caa885e.setContent(html_4c403938c9a14dc8ad4586db93a33723);
+        
+
+        marker_18340bb7b6df4c3bae5c221349a48c5a.bindPopup(popup_fbaf064d024041c3b4ab45732caa885e)
+        ;
+
+        
+    
+    
+            var marker_c4b45e82cf4248e2ad02f0485b0f54a7 = L.marker(
+                [55.962917, -3.211345],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_a04640649942416b8919476aa68421d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e31395a2e27d43c3a92ca9991066bbf1 = $(`<div id="html_e31395a2e27d43c3a92ca9991066bbf1" style="width: 100.0%; height: 100.0%;">Slate, Hole, Wall:1</div>`)[0];
+            popup_a04640649942416b8919476aa68421d3.setContent(html_e31395a2e27d43c3a92ca9991066bbf1);
+        
+
+        marker_c4b45e82cf4248e2ad02f0485b0f54a7.bindPopup(popup_a04640649942416b8919476aa68421d3)
+        ;
+
+        
+    
+    
+            var marker_cc5fb5ee79334054a7b36f3d89855ab9 = L.marker(
+                [55.96511, -3.209825],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_3c02173a68a644d4b2d0423794aedc7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf06c95bba144597a6e7906ca04afb95 = $(`<div id="html_bf06c95bba144597a6e7906ca04afb95" style="width: 100.0%; height: 100.0%;">Cone:1</div>`)[0];
+            popup_3c02173a68a644d4b2d0423794aedc7f.setContent(html_bf06c95bba144597a6e7906ca04afb95);
+        
+
+        marker_cc5fb5ee79334054a7b36f3d89855ab9.bindPopup(popup_3c02173a68a644d4b2d0423794aedc7f)
+        ;
+
+        
+    
+    
+            var marker_f26a136fbdb44a5b9c233b50013dca50 = L.marker(
+                [55.965167, -3.2098150000000003],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_30a79e1a70b24934be685166cac209cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44c3f6a2c7ed41578c819107c0a7c1ac = $(`<div id="html_44c3f6a2c7ed41578c819107c0a7c1ac" style="width: 100.0%; height: 100.0%;">Untitled:1</div>`)[0];
+            popup_30a79e1a70b24934be685166cac209cb.setContent(html_44c3f6a2c7ed41578c819107c0a7c1ac);
+        
+
+        marker_f26a136fbdb44a5b9c233b50013dca50.bindPopup(popup_30a79e1a70b24934be685166cac209cb)
+        ;
+
+        
+    
+    
+            var marker_98f0b142a37049bb845ed58fa275e512 = L.marker(
+                [55.964789, -3.2038279999999997],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f2dc200abcc84e20a5bc6b0a09673efb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b8a3dc8c2784b29b284ce1520f016d5 = $(`<div id="html_9b8a3dc8c2784b29b284ce1520f016d5" style="width: 100.0%; height: 100.0%;">East Gates:1</div>`)[0];
+            popup_f2dc200abcc84e20a5bc6b0a09673efb.setContent(html_9b8a3dc8c2784b29b284ce1520f016d5);
+        
+
+        marker_98f0b142a37049bb845ed58fa275e512.bindPopup(popup_f2dc200abcc84e20a5bc6b0a09673efb)
+        ;
+
+        
+    
+    
+            var marker_e6f45176083545f8a85e7ab32c3a4cae = L.marker(
+                [55.9707, -3.1717],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_d8104d1b4fd64ecf87f1d62467d63981 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32921fe715184d41b522d3de75c2b13d = $(`<div id="html_32921fe715184d41b522d3de75c2b13d" style="width: 100.0%; height: 100.0%;">Queen Victoria:1</div>`)[0];
+            popup_d8104d1b4fd64ecf87f1d62467d63981.setContent(html_32921fe715184d41b522d3de75c2b13d);
+        
+
+        marker_e6f45176083545f8a85e7ab32c3a4cae.bindPopup(popup_d8104d1b4fd64ecf87f1d62467d63981)
+        ;
+
+        
+    
+    
+            var marker_cb8181bf2d7c43b983f7946e3afd74f9 = L.marker(
+                [55.978, -3.16933],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_85ffd0aa6e7b403cb2cc366e7b1c5590 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b498fa8d001a493fb03c8e7b9823dea2 = $(`<div id="html_b498fa8d001a493fb03c8e7b9823dea2" style="width: 100.0%; height: 100.0%;">Sandy Irvine Robertson OBE:1</div>`)[0];
+            popup_85ffd0aa6e7b403cb2cc366e7b1c5590.setContent(html_b498fa8d001a493fb03c8e7b9823dea2);
+        
+
+        marker_cb8181bf2d7c43b983f7946e3afd74f9.bindPopup(popup_85ffd0aa6e7b403cb2cc366e7b1c5590)
+        ;
+
+        
+    
+    
+            var marker_2862235a896d49d6bd08a94f04bca4b4 = L.marker(
+                [55.9517, -3.1881],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_3b16870179ec43f991afe7981be97f82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ecf4a0006fc41cfb6f2fa3315f7e6eb = $(`<div id="html_5ecf4a0006fc41cfb6f2fa3315f7e6eb" style="width: 100.0%; height: 100.0%;">King's Own Scottish Borderers Memorial:1</div>`)[0];
+            popup_3b16870179ec43f991afe7981be97f82.setContent(html_5ecf4a0006fc41cfb6f2fa3315f7e6eb);
+        
+
+        marker_2862235a896d49d6bd08a94f04bca4b4.bindPopup(popup_3b16870179ec43f991afe7981be97f82)
+        ;
+
+        
+    
+    
+            var marker_71602d181db6478999a334ccf4554bc4 = L.marker(
+                [55.956388, -3.1873810000000002],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_35a4988365fa4b57b1b05b1f2d737c87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d77f927060349f6a1ff8f509ddd8953 = $(`<div id="html_7d77f927060349f6a1ff8f509ddd8953" style="width: 100.0%; height: 100.0%;">The Manuscript of Monte Cassino:1</div>`)[0];
+            popup_35a4988365fa4b57b1b05b1f2d737c87.setContent(html_7d77f927060349f6a1ff8f509ddd8953);
+        
+
+        marker_71602d181db6478999a334ccf4554bc4.bindPopup(popup_35a4988365fa4b57b1b05b1f2d737c87)
+        ;
+
+        
+    
+    
+            var marker_03fefb0b84e5496cac2e7bf7bb4fdb3f = L.marker(
+                [55.956837, -3.18675],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_eddcf212aa9b4bd9b50bc515748c924e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_953552318dbb4cac9607b46ee7ea1f9c = $(`<div id="html_953552318dbb4cac9607b46ee7ea1f9c" style="width: 100.0%; height: 100.0%;">Memorial to Sir Arthur Conan Doyle:1</div>`)[0];
+            popup_eddcf212aa9b4bd9b50bc515748c924e.setContent(html_953552318dbb4cac9607b46ee7ea1f9c);
+        
+
+        marker_03fefb0b84e5496cac2e7bf7bb4fdb3f.bindPopup(popup_eddcf212aa9b4bd9b50bc515748c924e)
+        ;
+
+        
+    
+    
+            var marker_ba7901f11b034957b805f9223c535f47 = L.marker(
+                [55.95941, -3.2042040000000003],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_ae2eaae5a8ef483d99fb0038df3c6ee3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4166fc0576364f37bd12fffc81040118 = $(`<div id="html_4166fc0576364f37bd12fffc81040118" style="width: 100.0%; height: 100.0%;">Horse Rider Eagle:1</div>`)[0];
+            popup_ae2eaae5a8ef483d99fb0038df3c6ee3.setContent(html_4166fc0576364f37bd12fffc81040118);
+        
+
+        marker_ba7901f11b034957b805f9223c535f47.bindPopup(popup_ae2eaae5a8ef483d99fb0038df3c6ee3)
+        ;
+
+        
+    
+    
+            var marker_629cb87307524e408828481b6f8df6c6 = L.marker(
+                [55.9489, -3.1974],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f3af4f188022432482f6e72099875896 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c317697e776140439c8231279d545e25 = $(`<div id="html_c317697e776140439c8231279d545e25" style="width: 100.0%; height: 100.0%;">Scottish Horse Boer War Memorial:1</div>`)[0];
+            popup_f3af4f188022432482f6e72099875896.setContent(html_c317697e776140439c8231279d545e25);
+        
+
+        marker_629cb87307524e408828481b6f8df6c6.bindPopup(popup_f3af4f188022432482f6e72099875896)
+        ;
+
+        
+    
+    
+            var marker_337ea41ca220487fba161dd1e737e1fb = L.marker(
+                [55.9501, -3.1945],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_57be6570fc514f7eac0af9aec7b35952 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_682c541e66174368877ebd83886d7002 = $(`<div id="html_682c541e66174368877ebd83886d7002" style="width: 100.0%; height: 100.0%;">Black Watch Boer War Memorial:1</div>`)[0];
+            popup_57be6570fc514f7eac0af9aec7b35952.setContent(html_682c541e66174368877ebd83886d7002);
+        
+
+        marker_337ea41ca220487fba161dd1e737e1fb.bindPopup(popup_57be6570fc514f7eac0af9aec7b35952)
+        ;
+
+        
+    
+    
+            var marker_7c4cc77f17a3441e9b5b38bd122633e6 = L.marker(
+                [55.9529, -3.1736],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_ba31cf60026949debccb821271e9768b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_144c3e74e9324b8f99d3848974e2bd63 = $(`<div id="html_144c3e74e9324b8f99d3848974e2bd63" style="width: 100.0%; height: 100.0%;">King Edward VII:1</div>`)[0];
+            popup_ba31cf60026949debccb821271e9768b.setContent(html_144c3e74e9324b8f99d3848974e2bd63);
+        
+
+        marker_7c4cc77f17a3441e9b5b38bd122633e6.bindPopup(popup_ba31cf60026949debccb821271e9768b)
+        ;
+
+        
+    
+    
+            var marker_eefacf1d8d7c42d287c0ccf7dd0de08f = L.marker(
+                [55.948862, -3.201779],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_2fdbdc5270074e89bb4972333342f5c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d45a7e467fb40a39db1602c9e9f0c65 = $(`<div id="html_1d45a7e467fb40a39db1602c9e9f0c65" style="width: 100.0%; height: 100.0%;">Field Marshal Douglas Haig, 1st Earl Haig:1</div>`)[0];
+            popup_2fdbdc5270074e89bb4972333342f5c9.setContent(html_1d45a7e467fb40a39db1602c9e9f0c65);
+        
+
+        marker_eefacf1d8d7c42d287c0ccf7dd0de08f.bindPopup(popup_2fdbdc5270074e89bb4972333342f5c9)
+        ;
+
+        
+    
+    
+            var marker_d0712db2b4ed46d68303a52f85421be2 = L.marker(
+                [55.948551, -3.198598],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_e6c7ef8f74324715bc835b2afa6e9637 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b733675f362458aa012aef3cc6d564d = $(`<div id="html_5b733675f362458aa012aef3cc6d564d" style="width: 100.0%; height: 100.0%;">Robert the Bruce:1</div>`)[0];
+            popup_e6c7ef8f74324715bc835b2afa6e9637.setContent(html_5b733675f362458aa012aef3cc6d564d);
+        
+
+        marker_d0712db2b4ed46d68303a52f85421be2.bindPopup(popup_e6c7ef8f74324715bc835b2afa6e9637)
+        ;
+
+        
+    
+    
+            var marker_da83f72f58c94726b76099fce70da7c5 = L.marker(
+                [55.948577, -3.198598],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_b51ad9280d2344b6a551c6ba47a9c040 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cedf56b618540359e5ad0b04a717742 = $(`<div id="html_0cedf56b618540359e5ad0b04a717742" style="width: 100.0%; height: 100.0%;">William Wallace:1</div>`)[0];
+            popup_b51ad9280d2344b6a551c6ba47a9c040.setContent(html_0cedf56b618540359e5ad0b04a717742);
+        
+
+        marker_da83f72f58c94726b76099fce70da7c5.bindPopup(popup_b51ad9280d2344b6a551c6ba47a9c040)
+        ;
+
+        
+    
+    
+            var marker_a0330dc86cc941b0b6f392b143b2962c = L.marker(
+                [55.947827, -3.194772],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_e9f9275927734807b0e20c3c3a13872c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e33ad9f109d4044ac633bf94d200cc4 = $(`<div id="html_3e33ad9f109d4044ac633bf94d200cc4" style="width: 100.0%; height: 100.0%;">Covenanters’ Memorial:1</div>`)[0];
+            popup_e9f9275927734807b0e20c3c3a13872c.setContent(html_3e33ad9f109d4044ac633bf94d200cc4);
+        
+
+        marker_a0330dc86cc941b0b6f392b143b2962c.bindPopup(popup_e9f9275927734807b0e20c3c3a13872c)
+        ;
+
+        
+    
+    
+            var marker_e299759884a64401a94049a8f98d608a = L.marker(
+                [55.94956, -3.192625],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f36fb4c4fe7646be8fcab10959f8d920 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_560dfad5b5e5469db2929e7b9a94724d = $(`<div id="html_560dfad5b5e5469db2929e7b9a94724d" style="width: 100.0%; height: 100.0%;">David Hume:1</div>`)[0];
+            popup_f36fb4c4fe7646be8fcab10959f8d920.setContent(html_560dfad5b5e5469db2929e7b9a94724d);
+        
+
+        marker_e299759884a64401a94049a8f98d608a.bindPopup(popup_f36fb4c4fe7646be8fcab10959f8d920)
+        ;
+
+        
+    
+    
+            var marker_4b9ebe827f4b4e0a9b4eca8710ca7f40 = L.marker(
+                [55.949548, -3.19422],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_669dbc7cb55f44fb9a358478246daa2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4378273fe65048ff998d26e8bb0dc574 = $(`<div id="html_4378273fe65048ff998d26e8bb0dc574" style="width: 100.0%; height: 100.0%;">Memorial to Susannah Alice Stephen:1</div>`)[0];
+            popup_669dbc7cb55f44fb9a358478246daa2d.setContent(html_4378273fe65048ff998d26e8bb0dc574);
+        
+
+        marker_4b9ebe827f4b4e0a9b4eca8710ca7f40.bindPopup(popup_669dbc7cb55f44fb9a358478246daa2d)
+        ;
+
+        
+    
+    
+            var marker_5b4820d5ba7648f9a1b25f20ab10912f = L.marker(
+                [55.9514, -3.1994],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_0869e3b696b94f6fabbacc21e51c96f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a244e872598c426c8423e7732a8d82a6 = $(`<div id="html_a244e872598c426c8423e7732a8d82a6" style="width: 100.0%; height: 100.0%;">Royal Scots Greys Memorial:1</div>`)[0];
+            popup_0869e3b696b94f6fabbacc21e51c96f4.setContent(html_a244e872598c426c8423e7732a8d82a6);
+        
+
+        marker_5b4820d5ba7648f9a1b25f20ab10912f.bindPopup(popup_0869e3b696b94f6fabbacc21e51c96f4)
+        ;
+
+        
+    
+    
+            var marker_0037bda73b934d00831c8207bc852413 = L.marker(
+                [55.9508, -3.2026],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_24582e20e84e47cab1f62e2e9a490570 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5fb610abd004f45af4651894c7b2ccf = $(`<div id="html_f5fb610abd004f45af4651894c7b2ccf" style="width: 100.0%; height: 100.0%;">Thomas Guthrie:1</div>`)[0];
+            popup_24582e20e84e47cab1f62e2e9a490570.setContent(html_f5fb610abd004f45af4651894c7b2ccf);
+        
+
+        marker_0037bda73b934d00831c8207bc852413.bindPopup(popup_24582e20e84e47cab1f62e2e9a490570)
+        ;
+
+        
+    
+    
+            var marker_2e5c4160b81042b789cb693dc47e659d = L.marker(
+                [55.950556, -3.2019439999999997],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_36d69290fbcb424bb263fcbd66998f00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ece98be5332444eaa846dc37e20c0bd = $(`<div id="html_9ece98be5332444eaa846dc37e20c0bd" style="width: 100.0%; height: 100.0%;">Scots American War Memorial:1</div>`)[0];
+            popup_36d69290fbcb424bb263fcbd66998f00.setContent(html_9ece98be5332444eaa846dc37e20c0bd);
+        
+
+        marker_2e5c4160b81042b789cb693dc47e659d.bindPopup(popup_36d69290fbcb424bb263fcbd66998f00)
+        ;
+
+        
+    
+    
+            var marker_c3edbafb51d64d0d83ceed58c41fbf90 = L.marker(
+                [55.9511, -3.1973],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_fea8531a5c084528815fb6c250c2f1f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d61ef637d9cc43ccad62c863cfba27cd = $(`<div id="html_d61ef637d9cc43ccad62c863cfba27cd" style="width: 100.0%; height: 100.0%;">Royal Scots Memorial:1</div>`)[0];
+            popup_fea8531a5c084528815fb6c250c2f1f3.setContent(html_d61ef637d9cc43ccad62c863cfba27cd);
+        
+
+        marker_c3edbafb51d64d0d83ceed58c41fbf90.bindPopup(popup_fea8531a5c084528815fb6c250c2f1f3)
+        ;
+
+        
+    
+    
+            var marker_041b958273dc477598dace873b535814 = L.marker(
+                [55.950229, -3.202055],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_6fd9e52f51e642ac9fdc571f61770eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_825d06fe93c049ca861be56afe5d3bc5 = $(`<div id="html_825d06fe93c049ca861be56afe5d3bc5" style="width: 100.0%; height: 100.0%;">Norwegian War Memorial:1</div>`)[0];
+            popup_6fd9e52f51e642ac9fdc571f61770eb4.setContent(html_825d06fe93c049ca861be56afe5d3bc5);
+        
+
+        marker_041b958273dc477598dace873b535814.bindPopup(popup_6fd9e52f51e642ac9fdc571f61770eb4)
+        ;
+
+        
+    
+    
+            var marker_5706e5545cc148298d33a50be99ddc6a = L.marker(
+                [55.95, -3.2023],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_c02a453852a3495a9881615cc81110cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b20333537fb4be892a6330a0609012f = $(`<div id="html_5b20333537fb4be892a6330a0609012f" style="width: 100.0%; height: 100.0%;">Memorial to Robert Louis Stevenson:1</div>`)[0];
+            popup_c02a453852a3495a9881615cc81110cd.setContent(html_5b20333537fb4be892a6330a0609012f);
+        
+
+        marker_5706e5545cc148298d33a50be99ddc6a.bindPopup(popup_c02a453852a3495a9881615cc81110cd)
+        ;
+
+        
+    
+    
+            var marker_f3fb1bc213f448668ee4ed4d709368bb = L.marker(
+                [55.950678, -3.194904],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_a3450fa8e330481dbe43ac988bd33844 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f552684f3545488cbdeebac371935972 = $(`<div id="html_f552684f3545488cbdeebac371935972" style="width: 100.0%; height: 100.0%;">Spanish Brigade Memorial:1</div>`)[0];
+            popup_a3450fa8e330481dbe43ac988bd33844.setContent(html_f552684f3545488cbdeebac371935972);
+        
+
+        marker_f3fb1bc213f448668ee4ed4d709368bb.bindPopup(popup_a3450fa8e330481dbe43ac988bd33844)
+        ;
+
+        
+    
+    
+            var marker_a4ef0f051803458889a64ef4a0b15faa = L.marker(
+                [55.933225, -3.3077739999999998],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_73227b8f74ea4bde84318ffab19517d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a3b60702f4a4694abfdad46c05c6278 = $(`<div id="html_8a3b60702f4a4694abfdad46c05c6278" style="width: 100.0%; height: 100.0%;">The Wealth of Nations:1</div>`)[0];
+            popup_73227b8f74ea4bde84318ffab19517d8.setContent(html_8a3b60702f4a4694abfdad46c05c6278);
+        
+
+        marker_a4ef0f051803458889a64ef4a0b15faa.bindPopup(popup_73227b8f74ea4bde84318ffab19517d8)
+        ;
+
+        
+    
+    
+            var marker_76fe7b6411804c53b7814db53e418ae4 = L.marker(
+                [55.938706, -3.314168],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_6aa2b5d79ce4406392e2d69a1fd92e8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c1d89744c8544e69c6a2aef20535cfe = $(`<div id="html_5c1d89744c8544e69c6a2aef20535cfe" style="width: 100.0%; height: 100.0%;">Concrete Jungle:1</div>`)[0];
+            popup_6aa2b5d79ce4406392e2d69a1fd92e8f.setContent(html_5c1d89744c8544e69c6a2aef20535cfe);
+        
+
+        marker_76fe7b6411804c53b7814db53e418ae4.bindPopup(popup_6aa2b5d79ce4406392e2d69a1fd92e8f)
+        ;
+
+        
+    
+    
+            var marker_751b38dd54d34667bc30817e6b6b94cf = L.marker(
+                [55.938103, -3.3169519999999997],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f3a6c008b2c3410d9be2430c151b112d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b14764a983514adeaee3c457b20437af = $(`<div id="html_b14764a983514adeaee3c457b20437af" style="width: 100.0%; height: 100.0%;">Stacked Spades:1</div>`)[0];
+            popup_f3a6c008b2c3410d9be2430c151b112d.setContent(html_b14764a983514adeaee3c457b20437af);
+        
+
+        marker_751b38dd54d34667bc30817e6b6b94cf.bindPopup(popup_f3a6c008b2c3410d9be2430c151b112d)
+        ;
+
+        
+    
+    
+            var marker_22e0dab2c2bc4c0f923911123b59c510 = L.marker(
+                [55.937589, -3.3144669999999996],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f7c1573ae42945a69586d6858192a702 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b8b2d48bf5c407a9bb4f2e3d231b788 = $(`<div id="html_5b8b2d48bf5c407a9bb4f2e3d231b788" style="width: 100.0%; height: 100.0%;">Figure in a Landscape:1</div>`)[0];
+            popup_f7c1573ae42945a69586d6858192a702.setContent(html_5b8b2d48bf5c407a9bb4f2e3d231b788);
+        
+
+        marker_22e0dab2c2bc4c0f923911123b59c510.bindPopup(popup_f7c1573ae42945a69586d6858192a702)
+        ;
+
+        
+    
+    
+            var marker_02444b38f94d4808a16a5887c5b119f9 = L.marker(
+                [55.937226, -3.312775],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_84ea38bda4b24767bc8f0f71d1d995dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d26634cd05064f50b8e392bf7eb8fde2 = $(`<div id="html_d26634cd05064f50b8e392bf7eb8fde2" style="width: 100.0%; height: 100.0%;">Veil:1</div>`)[0];
+            popup_84ea38bda4b24767bc8f0f71d1d995dd.setContent(html_d26634cd05064f50b8e392bf7eb8fde2);
+        
+
+        marker_02444b38f94d4808a16a5887c5b119f9.bindPopup(popup_84ea38bda4b24767bc8f0f71d1d995dd)
+        ;
+
+        
+    
+    
+            var marker_9b5ce689bedd4ba18c32443476606000 = L.marker(
+                [55.936979, -3.3113620000000004],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_acbc6547be6441c3a94987d0eebca4fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6e2b31836a643efb75744a2e314842d = $(`<div id="html_a6e2b31836a643efb75744a2e314842d" style="width: 100.0%; height: 100.0%;">Fossil Tree:1</div>`)[0];
+            popup_acbc6547be6441c3a94987d0eebca4fc.setContent(html_a6e2b31836a643efb75744a2e314842d);
+        
+
+        marker_9b5ce689bedd4ba18c32443476606000.bindPopup(popup_acbc6547be6441c3a94987d0eebca4fc)
+        ;
+
+        
+    
+    
+            var marker_e25d0fad07164f1faf28202d5b0792ab = L.marker(
+                [55.936903, -3.314972],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_9186e5527a6048fc946de0303f0fa367 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2316ca2b4294ff0943fd809654796e0 = $(`<div id="html_f2316ca2b4294ff0943fd809654796e0" style="width: 100.0%; height: 100.0%;">Two Constellations for a Column:1</div>`)[0];
+            popup_9186e5527a6048fc946de0303f0fa367.setContent(html_f2316ca2b4294ff0943fd809654796e0);
+        
+
+        marker_e25d0fad07164f1faf28202d5b0792ab.bindPopup(popup_9186e5527a6048fc946de0303f0fa367)
+        ;
+
+        
+    
+    
+            var marker_0b3170152611400f833ac220839912a7 = L.marker(
+                [55.933042, -3.316653],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_322be74197b14e648975babfd05a477b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d190cddb8724c8ab46665a528aa6d92 = $(`<div id="html_3d190cddb8724c8ab46665a528aa6d92" style="width: 100.0%; height: 100.0%;">Scottish Writers:1</div>`)[0];
+            popup_322be74197b14e648975babfd05a477b.setContent(html_3d190cddb8724c8ab46665a528aa6d92);
+        
+
+        marker_0b3170152611400f833ac220839912a7.bindPopup(popup_322be74197b14e648975babfd05a477b)
+        ;
+
+        
+    
+    
+            var marker_6cc8a2e19f9944caaa0404eb0f3c0383 = L.marker(
+                [55.9752, -3.1910000000000003],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_d9c8c8e3af7341f88e4fd4a4fe277721 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14d06952ffed4ce185673b2d5deb30c7 = $(`<div id="html_14d06952ffed4ce185673b2d5deb30c7" style="width: 100.0%; height: 100.0%;">King Edward VII:1</div>`)[0];
+            popup_d9c8c8e3af7341f88e4fd4a4fe277721.setContent(html_14d06952ffed4ce185673b2d5deb30c7);
+        
+
+        marker_6cc8a2e19f9944caaa0404eb0f3c0383.bindPopup(popup_d9c8c8e3af7341f88e4fd4a4fe277721)
+        ;
+
+        
+    
+    
+            var marker_98667bcd018f4b5d86bfe006f1ccb71b = L.marker(
+                [55.9485, -3.2123],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_2776df558cdd4687adb98ed077b0d563 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43826bfbe61f43a4b121150c8a7f9da9 = $(`<div id="html_43826bfbe61f43a4b121150c8a7f9da9" style="width: 100.0%; height: 100.0%;">Memorial to William Ewart Gladstone:1</div>`)[0];
+            popup_2776df558cdd4687adb98ed077b0d563.setContent(html_43826bfbe61f43a4b121150c8a7f9da9);
+        
+
+        marker_98667bcd018f4b5d86bfe006f1ccb71b.bindPopup(popup_2776df558cdd4687adb98ed077b0d563)
+        ;
+
+        
+    
+    
+            var marker_8b628242aab04cb195a437d21d332f7e = L.marker(
+                [55.9469, -3.2062],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_3090051afe304978bdb1b7b9782362c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58d237902b5e41d5b3efe12dfd1ea024 = $(`<div id="html_58d237902b5e41d5b3efe12dfd1ea024" style="width: 100.0%; height: 100.0%;">Woman and Child:1</div>`)[0];
+            popup_3090051afe304978bdb1b7b9782362c5.setContent(html_58d237902b5e41d5b3efe12dfd1ea024);
+        
+
+        marker_8b628242aab04cb195a437d21d332f7e.bindPopup(popup_3090051afe304978bdb1b7b9782362c5)
+        ;
+
+        
+    
+    
+            var marker_12ae107ee2534b268e9a324067b42145 = L.marker(
+                [55.948145, -3.208686],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_32f1b801ba054e64a63d627baeb6da49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c58c52dc7a3c4e10aecf2d464fad9828 = $(`<div id="html_c58c52dc7a3c4e10aecf2d464fad9828" style="width: 100.0%; height: 100.0%;">Horse & Rider:1</div>`)[0];
+            popup_32f1b801ba054e64a63d627baeb6da49.setContent(html_c58c52dc7a3c4e10aecf2d464fad9828);
+        
+
+        marker_12ae107ee2534b268e9a324067b42145.bindPopup(popup_32f1b801ba054e64a63d627baeb6da49)
+        ;
+
+        
+    
+    
+            var marker_5f5df05b4705428c96ed91f5a27bd935 = L.marker(
+                [55.9514, -3.222946],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_a2c0b69f54ff46d7a09e0fc1390f6206 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5f804661be64988998b7b1a373d7217 = $(`<div id="html_f5f804661be64988998b7b1a373d7217" style="width: 100.0%; height: 100.0%;">La Vierge d'Alsace(The Virgin of Alsace):1</div>`)[0];
+            popup_a2c0b69f54ff46d7a09e0fc1390f6206.setContent(html_f5f804661be64988998b7b1a373d7217);
+        
+
+        marker_5f5df05b4705428c96ed91f5a27bd935.bindPopup(popup_a2c0b69f54ff46d7a09e0fc1390f6206)
+        ;
+
+        
+    
+    
+            var marker_824537a774f24fc68508d26bfce63091 = L.marker(
+                [55.950759, -3.2271259999999997],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_38d24ffa18de4ba6b431bd75f15d76cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5be7152cd1b74895bb06f59463a58dd5 = $(`<div id="html_5be7152cd1b74895bb06f59463a58dd5" style="width: 100.0%; height: 100.0%;">Reclining Figure:1</div>`)[0];
+            popup_38d24ffa18de4ba6b431bd75f15d76cb.setContent(html_5be7152cd1b74895bb06f59463a58dd5);
+        
+
+        marker_824537a774f24fc68508d26bfce63091.bindPopup(popup_38d24ffa18de4ba6b431bd75f15d76cb)
+        ;
+
+        
+    
+    
+            var marker_b53c507c49a849b79cd9318864dadbfa = L.marker(
+                [55.951299, -3.224912],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_82adf40a15464f25a0de9f50f5ff5c5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3feede9beda45f4bdafa8bd21c0dbee = $(`<div id="html_f3feede9beda45f4bdafa8bd21c0dbee" style="width: 100.0%; height: 100.0%;">Master of the Universe:1</div>`)[0];
+            popup_82adf40a15464f25a0de9f50f5ff5c5a.setContent(html_f3feede9beda45f4bdafa8bd21c0dbee);
+        
+
+        marker_b53c507c49a849b79cd9318864dadbfa.bindPopup(popup_82adf40a15464f25a0de9f50f5ff5c5a)
+        ;
+
+        
+    
+    
+            var marker_9440b93d279c4a208b6cf6226435709c = L.marker(
+                [55.94388266, -3.188728092],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_ed988859db96400f8a85af8f84c50ae2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a6db98e259d40229988c1c2bda8a297 = $(`<div id="html_2a6db98e259d40229988c1c2bda8a297" style="width: 100.0%; height: 100.0%;">The Dreamer :1</div>`)[0];
+            popup_ed988859db96400f8a85af8f84c50ae2.setContent(html_2a6db98e259d40229988c1c2bda8a297);
+        
+
+        marker_9440b93d279c4a208b6cf6226435709c.bindPopup(popup_ed988859db96400f8a85af8f84c50ae2)
+        ;
+
+        
+    
+    
+            var marker_df07aa48102b4ea3ae928e9fed170c27 = L.marker(
+                [55.94361556, -3.189746575],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_03a278b412a441a18e28a883a8996041 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d814956304e242fb9e92e1312b9edfe1 = $(`<div id="html_d814956304e242fb9e92e1312b9edfe1" style="width: 100.0%; height: 100.0%;">Orbis:1</div>`)[0];
+            popup_03a278b412a441a18e28a883a8996041.setContent(html_d814956304e242fb9e92e1312b9edfe1);
+        
+
+        marker_df07aa48102b4ea3ae928e9fed170c27.bindPopup(popup_03a278b412a441a18e28a883a8996041)
+        ;
+
+        
+    
+    
+            var marker_249a4f0c4360427090e41c2dc8dcf608 = L.marker(
+                [55.947339, -3.18785],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_775b563ab9984f9d81815da06644a821 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31880f61c88244e88956048236bf32bd = $(`<div id="html_31880f61c88244e88956048236bf32bd" style="width: 100.0%; height: 100.0%;">Old College War Memorial  :1</div>`)[0];
+            popup_775b563ab9984f9d81815da06644a821.setContent(html_31880f61c88244e88956048236bf32bd);
+        
+
+        marker_249a4f0c4360427090e41c2dc8dcf608.bindPopup(popup_775b563ab9984f9d81815da06644a821)
+        ;
+
+        
+    
+    
+            var marker_2eab62b629194409bf5d8099389c4505 = L.marker(
+                [55.947591, -3.186359],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_a016e6995ff74b569da87b3173c2df2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b23fb4f482774efbaec42f38a385267b = $(`<div id="html_b23fb4f482774efbaec42f38a385267b" style="width: 100.0%; height: 100.0%;">Golden Boy :1</div>`)[0];
+            popup_a016e6995ff74b569da87b3173c2df2e.setContent(html_b23fb4f482774efbaec42f38a385267b);
+        
+
+        marker_2eab62b629194409bf5d8099389c4505.bindPopup(popup_a016e6995ff74b569da87b3173c2df2e)
+        ;
+
+        
+    
+    
+            var marker_ac6e701a90ef40c7a5fc24e3c755efa2 = L.marker(
+                [55.945964, -3.198636],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_a0566eb00af9478abc73cb8d6c037128 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_acc110acb450439cbf7266b6774536c7 = $(`<div id="html_acc110acb450439cbf7266b6774536c7" style="width: 100.0%; height: 100.0%;">ECA War Memorial:1</div>`)[0];
+            popup_a0566eb00af9478abc73cb8d6c037128.setContent(html_acc110acb450439cbf7266b6774536c7);
+        
+
+        marker_ac6e701a90ef40c7a5fc24e3c755efa2.bindPopup(popup_a0566eb00af9478abc73cb8d6c037128)
+        ;
+
+        
+    
+    
+            var marker_f63cf5dc40a14f458b3a00bcca31ab1e = L.marker(
+                [55.938167, -3.1696880000000003],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_6be14d2eac844184860f7998aeed42da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c9597ba5ddf4fe887802b1f0b57742a = $(`<div id="html_1c9597ba5ddf4fe887802b1f0b57742a" style="width: 100.0%; height: 100.0%;">The Protégé :1</div>`)[0];
+            popup_6be14d2eac844184860f7998aeed42da.setContent(html_1c9597ba5ddf4fe887802b1f0b57742a);
+        
+
+        marker_f63cf5dc40a14f458b3a00bcca31ab1e.bindPopup(popup_6be14d2eac844184860f7998aeed42da)
+        ;
+
+        
+    
+    
+            var marker_8555d2e863174d4887b1e24c1c377db6 = L.marker(
+                [55.938532, -3.169644],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_769d2c8c77374024854b80edaae1b77c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62fc54b6528e47f08bad0dd36328902e = $(`<div id="html_62fc54b6528e47f08bad0dd36328902e" style="width: 100.0%; height: 100.0%;">Untitled :1</div>`)[0];
+            popup_769d2c8c77374024854b80edaae1b77c.setContent(html_62fc54b6528e47f08bad0dd36328902e);
+        
+
+        marker_8555d2e863174d4887b1e24c1c377db6.bindPopup(popup_769d2c8c77374024854b80edaae1b77c)
+        ;
+
+        
+    
+    
+            var marker_2183d225ee9341ef9b0ccc9fd384c854 = L.marker(
+                [55.93726, -3.1711099999999997],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_fd508802d7cb4c839f28bc13e65ce5ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04e63390fb314e8fa84ab47c777f72d5 = $(`<div id="html_04e63390fb314e8fa84ab47c777f72d5" style="width: 100.0%; height: 100.0%;">Let my Blood be the Seed of My Freedom :1</div>`)[0];
+            popup_fd508802d7cb4c839f28bc13e65ce5ad.setContent(html_04e63390fb314e8fa84ab47c777f72d5);
+        
+
+        marker_2183d225ee9341ef9b0ccc9fd384c854.bindPopup(popup_fd508802d7cb4c839f28bc13e65ce5ad)
+        ;
+
+        
+    
+    
+            var marker_33d3132eceb446a88db3536ca9e5bb8e = L.marker(
+                [55.92259605, -3.1750005480000003],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_e12e167099324f1bb6f7a619abe3c880 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dc643568d874ba1ae96c63ab1a5ca55 = $(`<div id="html_3dc643568d874ba1ae96c63ab1a5ca55" style="width: 100.0%; height: 100.0%;">Egeria :1</div>`)[0];
+            popup_e12e167099324f1bb6f7a619abe3c880.setContent(html_3dc643568d874ba1ae96c63ab1a5ca55);
+        
+
+        marker_33d3132eceb446a88db3536ca9e5bb8e.bindPopup(popup_e12e167099324f1bb6f7a619abe3c880)
+        ;
+
+        
+    
+    
+            var marker_c201bd8664dd43e483c87f64b26906f1 = L.marker(
+                [55.92259304, -3.17530632],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_1901ae860ea24c1fa68ae2ddadb2c346 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e3586284b954eb7ab88e85ebd5afc68 = $(`<div id="html_0e3586284b954eb7ab88e85ebd5afc68" style="width: 100.0%; height: 100.0%;">Parthenope:1</div>`)[0];
+            popup_1901ae860ea24c1fa68ae2ddadb2c346.setContent(html_0e3586284b954eb7ab88e85ebd5afc68);
+        
+
+        marker_c201bd8664dd43e483c87f64b26906f1.bindPopup(popup_1901ae860ea24c1fa68ae2ddadb2c346)
+        ;
+
+        
+    
+    
+            var marker_cc4e11bd924846a1b5d74d1e27a4ff1d = L.marker(
+                [55.923971, -3.172765],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_b4d1c040d6c242c3a327341276cea3fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d992a9daa0b451e9e5fe83f55126f41 = $(`<div id="html_3d992a9daa0b451e9e5fe83f55126f41" style="width: 100.0%; height: 100.0%;">Ashworth Reliefs:1</div>`)[0];
+            popup_b4d1c040d6c242c3a327341276cea3fb.setContent(html_3d992a9daa0b451e9e5fe83f55126f41);
+        
+
+        marker_cc4e11bd924846a1b5d74d1e27a4ff1d.bindPopup(popup_b4d1c040d6c242c3a327341276cea3fb)
+        ;
+
+        
+    
+    
+            var marker_a8469763670941359598fa6578ca10aa = L.marker(
+                [55.923035, -3.171533],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_7b5ed0f03b374f58b78da0c5c28db525 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f24f8bff814046b0bc4fdca3421e6d49 = $(`<div id="html_f24f8bff814046b0bc4fdca3421e6d49" style="width: 100.0%; height: 100.0%;">Sanderson Relief:1</div>`)[0];
+            popup_7b5ed0f03b374f58b78da0c5c28db525.setContent(html_f24f8bff814046b0bc4fdca3421e6d49);
+        
+
+        marker_a8469763670941359598fa6578ca10aa.bindPopup(popup_7b5ed0f03b374f58b78da0c5c28db525)
+        ;
+
+        
+    
+    
+            var marker_064b79bcb9294699b5eeb98310eba003 = L.marker(
+                [55.924015, -3.174405],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_aa0ec167f70e46978fa0123d9d9e90e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46e537fd4ccb4f10adcf7670379da2ef = $(`<div id="html_46e537fd4ccb4f10adcf7670379da2ef" style="width: 100.0%; height: 100.0%;">Geology :1</div>`)[0];
+            popup_aa0ec167f70e46978fa0123d9d9e90e0.setContent(html_46e537fd4ccb4f10adcf7670379da2ef);
+        
+
+        marker_064b79bcb9294699b5eeb98310eba003.bindPopup(popup_aa0ec167f70e46978fa0123d9d9e90e0)
+        ;
+
+        
+    
+    
+            var marker_6eb3cdc3bd994739b9bda3993308073c = L.marker(
+                [55.923065, -3.17752],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_ca767488988c49c59bfd8ba850e89838 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4cf2287761641fab7aefad7e3cb5f6b = $(`<div id="html_b4cf2287761641fab7aefad7e3cb5f6b" style="width: 100.0%; height: 100.0%;">Crew Building Relief:1</div>`)[0];
+            popup_ca767488988c49c59bfd8ba850e89838.setContent(html_b4cf2287761641fab7aefad7e3cb5f6b);
+        
+
+        marker_6eb3cdc3bd994739b9bda3993308073c.bindPopup(popup_ca767488988c49c59bfd8ba850e89838)
+        ;
+
+        
+    
+    
+            var marker_d372f9273b164b53ab06804fc1502b0c = L.marker(
+                [55.864975, -3.201746],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_5dad486e0a1e402e9905fa7286392dea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1475fdacb2e4b9c9ac12f7d5ba04ac6 = $(`<div id="html_c1475fdacb2e4b9c9ac12f7d5ba04ac6" style="width: 100.0%; height: 100.0%;">Sprinting Afghan Hound:1</div>`)[0];
+            popup_5dad486e0a1e402e9905fa7286392dea.setContent(html_c1475fdacb2e4b9c9ac12f7d5ba04ac6);
+        
+
+        marker_d372f9273b164b53ab06804fc1502b0c.bindPopup(popup_5dad486e0a1e402e9905fa7286392dea)
+        ;
+
+        
+    
+    
+            var marker_a213a6041fe445e6a2dba2b55e92ad87 = L.marker(
+                [55.97364409, -3.17058848],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_b8713288e4764e35a98ebcf2e18fb325 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2796e6065ed4da0bb77c0e5fa8b33e8 = $(`<div id="html_f2796e6065ed4da0bb77c0e5fa8b33e8" style="width: 100.0%; height: 100.0%;">Untitled Mural:1</div>`)[0];
+            popup_b8713288e4764e35a98ebcf2e18fb325.setContent(html_f2796e6065ed4da0bb77c0e5fa8b33e8);
+        
+
+        marker_a213a6041fe445e6a2dba2b55e92ad87.bindPopup(popup_b8713288e4764e35a98ebcf2e18fb325)
+        ;
+
+        
+    
+    
+            var marker_a69d9c1155854c96a18a4347152b3f6f = L.marker(
+                [55.971693, -3.176815],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f0b53329b94443f7afa60dbf313c1d67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47253c6b71994954a2e5e51fdca7ed3c = $(`<div id="html_47253c6b71994954a2e5e51fdca7ed3c" style="width: 100.0%; height: 100.0%;">Swanfield Mural:1</div>`)[0];
+            popup_f0b53329b94443f7afa60dbf313c1d67.setContent(html_47253c6b71994954a2e5e51fdca7ed3c);
+        
+
+        marker_a69d9c1155854c96a18a4347152b3f6f.bindPopup(popup_f0b53329b94443f7afa60dbf313c1d67)
+        ;
+
+        
+    
+    
+            var marker_1e46974ccc8c4f1a947c055a1cf7903c = L.marker(
+                [55.9549, -3.1745],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_1d3d6b8c55764c4da397514a3874bf12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8268443b3c240868b73682823319559 = $(`<div id="html_c8268443b3c240868b73682823319559" style="width: 100.0%; height: 100.0%;">Stones of Scotland Circle:1</div>`)[0];
+            popup_1d3d6b8c55764c4da397514a3874bf12.setContent(html_c8268443b3c240868b73682823319559);
+        
+
+        marker_1e46974ccc8c4f1a947c055a1cf7903c.bindPopup(popup_1d3d6b8c55764c4da397514a3874bf12)
+        ;
+
+        
+    
+    
+            var marker_b7da914e94ea440e8005d5d564b386da = L.marker(
+                [55.908597, -3.256297],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_62fae9dc992a4b768f16372829b7f4c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e0effa468264f1e87a81da5fd6f78af = $(`<div id="html_3e0effa468264f1e87a81da5fd6f78af" style="width: 100.0%; height: 100.0%;">Memorial to Robert Louis Stevenson:1</div>`)[0];
+            popup_62fae9dc992a4b768f16372829b7f4c7.setContent(html_3e0effa468264f1e87a81da5fd6f78af);
+        
+
+        marker_b7da914e94ea440e8005d5d564b386da.bindPopup(popup_62fae9dc992a4b768f16372829b7f4c7)
+        ;
+
+        
+    
+    
+            var marker_8bf3f72795cc4c0aa495a39b0b91b35b = L.marker(
+                [55.909542, -3.249274],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_3056a67535d14e209bc427d315b97b6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f93737e64114c47bed033c460616a69 = $(`<div id="html_4f93737e64114c47bed033c460616a69" style="width: 100.0%; height: 100.0%;">Memorial to Army pipers killed in conflict:1</div>`)[0];
+            popup_3056a67535d14e209bc427d315b97b6f.setContent(html_4f93737e64114c47bed033c460616a69);
+        
+
+        marker_8bf3f72795cc4c0aa495a39b0b91b35b.bindPopup(popup_3056a67535d14e209bc427d315b97b6f)
+        ;
+
+        
+    
+    
+            var marker_12655841897d4ffa903f4e924d05d236 = L.marker(
+                [55.94503, -3.249841],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_ab2118fb76c1404881c8862a9bad9de8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c8f589279c94bf2a07a4a2323926efd = $(`<div id="html_6c8f589279c94bf2a07a4a2323926efd" style="width: 100.0%; height: 100.0%;">Alan Breck Stewart & David Balfour. Characters from Kidnapped:1</div>`)[0];
+            popup_ab2118fb76c1404881c8862a9bad9de8.setContent(html_6c8f589279c94bf2a07a4a2323926efd);
+        
+
+        marker_12655841897d4ffa903f4e924d05d236.bindPopup(popup_ab2118fb76c1404881c8862a9bad9de8)
+        ;
+
+        
+    
+    
+            var marker_202fddc1c4e84d83bae431ab00b1ffe7 = L.marker(
+                [55.944117, -3.271337],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_fdf09a2733af4f1db298d904a26d07c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11b28ac20339461cb58caf83d39d9022 = $(`<div id="html_11b28ac20339461cb58caf83d39d9022" style="width: 100.0%; height: 100.0%;">Nils Olav (penguin soldier):1</div>`)[0];
+            popup_fdf09a2733af4f1db298d904a26d07c0.setContent(html_11b28ac20339461cb58caf83d39d9022);
+        
+
+        marker_202fddc1c4e84d83bae431ab00b1ffe7.bindPopup(popup_fdf09a2733af4f1db298d904a26d07c0)
+        ;
+
+        
+    
+    
+            var marker_fe32e6d45cd84629aa550e038fbbafb5 = L.marker(
+                [55.979722, -3.294227],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_af8c45fdb6264bc7b5371c474ef26693 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68fa1a49c6df4ae286505cd931699b78 = $(`<div id="html_68fa1a49c6df4ae286505cd931699b78" style="width: 100.0%; height: 100.0%;">The Cramond Fish:1</div>`)[0];
+            popup_af8c45fdb6264bc7b5371c474ef26693.setContent(html_68fa1a49c6df4ae286505cd931699b78);
+        
+
+        marker_fe32e6d45cd84629aa550e038fbbafb5.bindPopup(popup_af8c45fdb6264bc7b5371c474ef26693)
+        ;
+
+        
+    
+    
+            var marker_e8db827d598a440f849312059058ace9 = L.marker(
+                [55.9836, -3.17636],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_c752017f7965467088614db6df88cf09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ff400a9f92940899b4ef289620549b9 = $(`<div id="html_3ff400a9f92940899b4ef289620549b9" style="width: 100.0%; height: 100.0%;">6 Times:1</div>`)[0];
+            popup_c752017f7965467088614db6df88cf09.setContent(html_3ff400a9f92940899b4ef289620549b9);
+        
+
+        marker_e8db827d598a440f849312059058ace9.bindPopup(popup_c752017f7965467088614db6df88cf09)
+        ;
+
+        
+    
+    
+            var marker_30c8655c43c64e40a0298c54194bca93 = L.marker(
+                [55.956344, -3.186225],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_a924a914c307456a99b4fab24170b73a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f026007fb758489cb371c0476368d460 = $(`<div id="html_f026007fb758489cb371c0476368d460" style="width: 100.0%; height: 100.0%;">Dreaming Spires:1</div>`)[0];
+            popup_a924a914c307456a99b4fab24170b73a.setContent(html_f026007fb758489cb371c0476368d460);
+        
+
+        marker_30c8655c43c64e40a0298c54194bca93.bindPopup(popup_a924a914c307456a99b4fab24170b73a)
+        ;
+
+        
+    
+    
+            var marker_063b85e60eaa4a0baa3858a625fbfb9d = L.marker(
+                [55.954623, -3.193084],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_097fcbc0520e4c7a85909bd7a5a4a8ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b08be027fed48e7b40d06526a8a9e6d = $(`<div id="html_8b08be027fed48e7b40d06526a8a9e6d" style="width: 100.0%; height: 100.0%;">Lion of Scotland:1</div>`)[0];
+            popup_097fcbc0520e4c7a85909bd7a5a4a8ca.setContent(html_8b08be027fed48e7b40d06526a8a9e6d);
+        
+
+        marker_063b85e60eaa4a0baa3858a625fbfb9d.bindPopup(popup_097fcbc0520e4c7a85909bd7a5a4a8ca)
+        ;
+
+        
+    
+    
+            var marker_042dc0cd49e04230a94bb6712986210a = L.marker(
+                [55.954053, -3.194381],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_e00d28dfd98d4fb8bd2e883c511d80f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_014d95226635444ea5cb425a38515b9d = $(`<div id="html_014d95226635444ea5cb425a38515b9d" style="width: 100.0%; height: 100.0%;">James Clerk Maxwell:1</div>`)[0];
+            popup_e00d28dfd98d4fb8bd2e883c511d80f9.setContent(html_014d95226635444ea5cb425a38515b9d);
+        
+
+        marker_042dc0cd49e04230a94bb6712986210a.bindPopup(popup_e00d28dfd98d4fb8bd2e883c511d80f9)
+        ;
+
+        
+    
+    
+            var marker_1ad20260ed594c87b667b1a2a333b26b = L.marker(
+                [55.949764, -3.190069],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_367c37259b204d8fa7886f1c5035fcb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38a5e8972df04ca18b7d8636ab2e9a9f = $(`<div id="html_38a5e8972df04ca18b7d8636ab2e9a9f" style="width: 100.0%; height: 100.0%;">Adam Smith:1</div>`)[0];
+            popup_367c37259b204d8fa7886f1c5035fcb8.setContent(html_38a5e8972df04ca18b7d8636ab2e9a9f);
+        
+
+        marker_1ad20260ed594c87b667b1a2a333b26b.bindPopup(popup_367c37259b204d8fa7886f1c5035fcb8)
+        ;
+
+        
+    
+    
+            var marker_390b5c536c1a42a5887d556fc1d8387c = L.marker(
+                [55.951574, -3.179363],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_5c81b485f20747faa0abffe40aef61ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2bc388ce8c84298a372aadd912954b9 = $(`<div id="html_e2bc388ce8c84298a372aadd912954b9" style="width: 100.0%; height: 100.0%;">Robert Fergusson:1</div>`)[0];
+            popup_5c81b485f20747faa0abffe40aef61ef.setContent(html_e2bc388ce8c84298a372aadd912954b9);
+        
+
+        marker_390b5c536c1a42a5887d556fc1d8387c.bindPopup(popup_5c81b485f20747faa0abffe40aef61ef)
+        ;
+
+        
+    
+    
+            var marker_3c5615d3662042e190ea3c8a3bdd4ee9 = L.marker(
+                [55.949495, -3.190013],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_9f41b9493aa649a78482ca59947f707c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbaa31ec8da34e3eb1f25c5c68c9e66d = $(`<div id="html_dbaa31ec8da34e3eb1f25c5c68c9e66d" style="width: 100.0%; height: 100.0%;">James Braidwood:1</div>`)[0];
+            popup_9f41b9493aa649a78482ca59947f707c.setContent(html_dbaa31ec8da34e3eb1f25c5c68c9e66d);
+        
+
+        marker_3c5615d3662042e190ea3c8a3bdd4ee9.bindPopup(popup_9f41b9493aa649a78482ca59947f707c)
+        ;
+
+        
+    
+    
+            var marker_f2431e6c4ab24a11b1efb0574b83557c = L.marker(
+                [55.951215, -3.18866],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_7b305a68a006445893ad7354c3cbbb02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88f9ae7c791645a4bb8def9f46dda4f5 = $(`<div id="html_88f9ae7c791645a4bb8def9f46dda4f5" style="width: 100.0%; height: 100.0%;">Work No. 1059:1</div>`)[0];
+            popup_7b305a68a006445893ad7354c3cbbb02.setContent(html_88f9ae7c791645a4bb8def9f46dda4f5);
+        
+
+        marker_f2431e6c4ab24a11b1efb0574b83557c.bindPopup(popup_7b305a68a006445893ad7354c3cbbb02)
+        ;
+
+        
+    
+    
+            var marker_7073a4331f304a82a25ce56cb3d30a69 = L.marker(
+                [55.94757, -3.18893],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_4aef195a5e5c4e58bfac450ee3b1bd04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88de5a64a1a04fc1bb0dfa13f9095fb3 = $(`<div id="html_88de5a64a1a04fc1bb0dfa13f9095fb3" style="width: 100.0%; height: 100.0%;">William Henry Playfair:1</div>`)[0];
+            popup_4aef195a5e5c4e58bfac450ee3b1bd04.setContent(html_88de5a64a1a04fc1bb0dfa13f9095fb3);
+        
+
+        marker_7073a4331f304a82a25ce56cb3d30a69.bindPopup(popup_4aef195a5e5c4e58bfac450ee3b1bd04)
+        ;
+
+        
+    
+    
+            var marker_9156ca80a51f475ca3ae6134b9d8998a = L.marker(
+                [55.948417, -3.203388],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f957771c74f74b87b9a22127ee2f3633 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42ae2fa66c344e0b91b279f3e10bd916 = $(`<div id="html_42ae2fa66c344e0b91b279f3e10bd916" style="width: 100.0%; height: 100.0%;">Bum the Dog (of San Diego):1</div>`)[0];
+            popup_f957771c74f74b87b9a22127ee2f3633.setContent(html_42ae2fa66c344e0b91b279f3e10bd916);
+        
+
+        marker_9156ca80a51f475ca3ae6134b9d8998a.bindPopup(popup_f957771c74f74b87b9a22127ee2f3633)
+        ;
+
+        
+    
+    
+            var marker_e4a6d719758b49c892a528145e9cc212 = L.marker(
+                [55.950833, -3.202028],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_10996ae79e3d49d3b05a7a095bd7abbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90be85816b55415f868e4b27d155f8df = $(`<div id="html_90be85816b55415f868e4b27d155f8df" style="width: 100.0%; height: 100.0%;">Wojtek (Voytek), the Soldier Bear:1</div>`)[0];
+            popup_10996ae79e3d49d3b05a7a095bd7abbf.setContent(html_90be85816b55415f868e4b27d155f8df);
+        
+
+        marker_e4a6d719758b49c892a528145e9cc212.bindPopup(popup_10996ae79e3d49d3b05a7a095bd7abbf)
+        ;
+
+        
+    
+    
+            var marker_c94bee240869404ba9e0458902ded339 = L.marker(
+                [55.950939, -3.198579],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_20990e9574e94273be95c105e9363ff0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e82f2c92c25041bf88519e728ab35ac0 = $(`<div id="html_e82f2c92c25041bf88519e728ab35ac0" style="width: 100.0%; height: 100.0%;">Lulla-Bye (Children’s Memorial):1</div>`)[0];
+            popup_20990e9574e94273be95c105e9363ff0.setContent(html_e82f2c92c25041bf88519e728ab35ac0);
+        
+
+        marker_c94bee240869404ba9e0458902ded339.bindPopup(popup_20990e9574e94273be95c105e9363ff0)
+        ;
+
+        
+    
+    
+            var marker_0fe1a4fda4c84d0eba72146d0a09e03c = L.marker(
+                [55.944755, -3.187452],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_57009659cfeb4d2e8027305d87cde2c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75860ccb4d114572838d3052b4d0d6d1 = $(`<div id="html_75860ccb4d114572838d3052b4d0d6d1" style="width: 100.0%; height: 100.0%;">Rhinoceros head:1</div>`)[0];
+            popup_57009659cfeb4d2e8027305d87cde2c6.setContent(html_75860ccb4d114572838d3052b4d0d6d1);
+        
+
+        marker_0fe1a4fda4c84d0eba72146d0a09e03c.bindPopup(popup_57009659cfeb4d2e8027305d87cde2c6)
+        ;
+
+        
+    
+    
+            var marker_2e477f47690a49b6b7847997f122296b = L.marker(
+                [55.944579, -3.187582],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_073360da9b0d4d088836c9dad8f30ca0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87811f36fe04464eaf6ee579b5ba073f = $(`<div id="html_87811f36fe04464eaf6ee579b5ba073f" style="width: 100.0%; height: 100.0%;">Bite on the Haynes Nano Stage :1</div>`)[0];
+            popup_073360da9b0d4d088836c9dad8f30ca0.setContent(html_87811f36fe04464eaf6ee579b5ba073f);
+        
+
+        marker_2e477f47690a49b6b7847997f122296b.bindPopup(popup_073360da9b0d4d088836c9dad8f30ca0)
+        ;
+
+        
+    
+    
+            var marker_c78b623b30cb4893bfc98f0e76de8b24 = L.marker(
+                [55.951288, -3.227125],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_fd7f67297d254e019e0e51020b0efb28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbe95a123cfb44f4a773293dcd230722 = $(`<div id="html_dbe95a123cfb44f4a773293dcd230722" style="width: 100.0%; height: 100.0%;">Landform:1</div>`)[0];
+            popup_fd7f67297d254e019e0e51020b0efb28.setContent(html_dbe95a123cfb44f4a773293dcd230722);
+        
+
+        marker_c78b623b30cb4893bfc98f0e76de8b24.bindPopup(popup_fd7f67297d254e019e0e51020b0efb28)
+        ;
+
+        
+    
+    
+            var marker_3b70cdb395604d7bbb1488a9f75ca4ce = L.marker(
+                [55.951917, -3.2233400000000003],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_8d346003350d475283a0e23e9362192b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20313f0712c8426d8fb001c10b2e5345 = $(`<div id="html_20313f0712c8426d8fb001c10b2e5345" style="width: 100.0%; height: 100.0%;">Macduff Circle:1</div>`)[0];
+            popup_8d346003350d475283a0e23e9362192b.setContent(html_20313f0712c8426d8fb001c10b2e5345);
+        
+
+        marker_3b70cdb395604d7bbb1488a9f75ca4ce.bindPopup(popup_8d346003350d475283a0e23e9362192b)
+        ;
+
+        
+    
+    
+            var marker_4daae0bd827f4e0796b6d4c6f6eea5b3 = L.marker(
+                [55.951182, -3.225086],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_214bae8206b04d0bb1bbe90193353947 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79b4e2813ee14fa7a5a6fb8eb80f3293 = $(`<div id="html_79b4e2813ee14fa7a5a6fb8eb80f3293" style="width: 100.0%; height: 100.0%;">6 Times:1</div>`)[0];
+            popup_214bae8206b04d0bb1bbe90193353947.setContent(html_79b4e2813ee14fa7a5a6fb8eb80f3293);
+        
+
+        marker_4daae0bd827f4e0796b6d4c6f6eea5b3.bindPopup(popup_214bae8206b04d0bb1bbe90193353947)
+        ;
+
+        
+    
+    
+            var marker_593a30253c2d4201aa50daede2eb8599 = L.marker(
+                [55.945393, -3.189116],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_c3daadca553f4b80aad72e4c9b316113 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90ce48cc768544729dfa9f27cf4683cd = $(`<div id="html_90ce48cc768544729dfa9f27cf4683cd" style="width: 100.0%; height: 100.0%;">The Next Big Thing…Is A Series of Little Things :1</div>`)[0];
+            popup_c3daadca553f4b80aad72e4c9b316113.setContent(html_90ce48cc768544729dfa9f27cf4683cd);
+        
+
+        marker_593a30253c2d4201aa50daede2eb8599.bindPopup(popup_c3daadca553f4b80aad72e4c9b316113)
+        ;
+
+        
+    
+    
+            var marker_81da06f565914b148a96382130056338 = L.marker(
+                [55.942908, -3.189075],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f035eab621bc4131b8d01225ecf3c01d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_632a4f33b60e4c268901f05c3dea5391 = $(`<div id="html_632a4f33b60e4c268901f05c3dea5391" style="width: 100.0%; height: 100.0%;">Mesostic Interleaved:1</div>`)[0];
+            popup_f035eab621bc4131b8d01225ecf3c01d.setContent(html_632a4f33b60e4c268901f05c3dea5391);
+        
+
+        marker_81da06f565914b148a96382130056338.bindPopup(popup_f035eab621bc4131b8d01225ecf3c01d)
+        ;
+
+        
+    
+    
+            var marker_0940e28ca6b742ce81fb4b06ba1f557a = L.marker(
+                [55.942748, -3.18855],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f3e226aaf93c4048b26e038ff86be9ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a553438f5097416488be51e3c8ec41a0 = $(`<div id="html_a553438f5097416488be51e3c8ec41a0" style="width: 100.0%; height: 100.0%;">The Basic Material Is Not the Word But the Letter :1</div>`)[0];
+            popup_f3e226aaf93c4048b26e038ff86be9ff.setContent(html_a553438f5097416488be51e3c8ec41a0);
+        
+
+        marker_0940e28ca6b742ce81fb4b06ba1f557a.bindPopup(popup_f3e226aaf93c4048b26e038ff86be9ff)
+        ;
+
+        
+    
+    
+            var marker_0adf9514d5d94c74991486d46362692c = L.marker(
+                [55.945175, -3.1985240000000004],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_d0f3e7a2d9d645928dc4d56a06993415 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_901477daef0d495ea86ae4e7b36b18df = $(`<div id="html_901477daef0d495ea86ae4e7b36b18df" style="width: 100.0%; height: 100.0%;">Untitled (Sucker Darts):1</div>`)[0];
+            popup_d0f3e7a2d9d645928dc4d56a06993415.setContent(html_901477daef0d495ea86ae4e7b36b18df);
+        
+
+        marker_0adf9514d5d94c74991486d46362692c.bindPopup(popup_d0f3e7a2d9d645928dc4d56a06993415)
+        ;
+
+        
+    
+    
+            var marker_ed93a45648604044ae8bc52920191479 = L.marker(
+                [55.937365, -3.169483],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_b5de77562c284756a4c054c85b07adf3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_043ea779afae435e9933f12fc617f959 = $(`<div id="html_043ea779afae435e9933f12fc617f959" style="width: 100.0%; height: 100.0%;">Unknown:1</div>`)[0];
+            popup_b5de77562c284756a4c054c85b07adf3.setContent(html_043ea779afae435e9933f12fc617f959);
+        
+
+        marker_ed93a45648604044ae8bc52920191479.bindPopup(popup_b5de77562c284756a4c054c85b07adf3)
+        ;
+
+        
+    
+    
+            var marker_d96f8b2335474db2b6d1a43ac88df904 = L.marker(
+                [55.865174, -3.200375],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_3abd290fa2c94d28ac9058fd893ed258 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b3922b0830b45be8b4e914c3d7a1787 = $(`<div id="html_4b3922b0830b45be8b4e914c3d7a1787" style="width: 100.0%; height: 100.0%;">Canter:1</div>`)[0];
+            popup_3abd290fa2c94d28ac9058fd893ed258.setContent(html_4b3922b0830b45be8b4e914c3d7a1787);
+        
+
+        marker_d96f8b2335474db2b6d1a43ac88df904.bindPopup(popup_3abd290fa2c94d28ac9058fd893ed258)
+        ;
+
+        
+    
+    
+            var marker_ad5ea293968c4f4b96b77b406b76c802 = L.marker(
+                [55.96481864, -3.174445359],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_20a9c07cbca24b048dbf7916f00426d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d457f816021d46c9b4b87db4a9ac8d3c = $(`<div id="html_d457f816021d46c9b4b87db4a9ac8d3c" style="width: 100.0%; height: 100.0%;">Wronger Rites:1</div>`)[0];
+            popup_20a9c07cbca24b048dbf7916f00426d2.setContent(html_d457f816021d46c9b4b87db4a9ac8d3c);
+        
+
+        marker_ad5ea293968c4f4b96b77b406b76c802.bindPopup(popup_20a9c07cbca24b048dbf7916f00426d2)
+        ;
+
+        
+    
+    
+            var marker_e359bfa1a6964af689a127d96d2af08b = L.marker(
+                [55.96859796, -3.173371931],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_3ea004dced0343798b0f8b09d5c62dfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed7a9879229a48b7b69c586bdac1268e = $(`<div id="html_ed7a9879229a48b7b69c586bdac1268e" style="width: 100.0%; height: 100.0%;">Untitled Mural:1</div>`)[0];
+            popup_3ea004dced0343798b0f8b09d5c62dfd.setContent(html_ed7a9879229a48b7b69c586bdac1268e);
+        
+
+        marker_e359bfa1a6964af689a127d96d2af08b.bindPopup(popup_3ea004dced0343798b0f8b09d5c62dfd)
+        ;
+
+        
+    
+    
+            var marker_f3300c613cb344bfab8c018bdf82cfe9 = L.marker(
+                [55.97073971, -3.170117861],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_e4efb743f42c445ba31aabafee270899 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a0b10fbad324e33b3b2bcb27462ba9c = $(`<div id="html_7a0b10fbad324e33b3b2bcb27462ba9c" style="width: 100.0%; height: 100.0%;">Leith Dockers Club Mural:1</div>`)[0];
+            popup_e4efb743f42c445ba31aabafee270899.setContent(html_7a0b10fbad324e33b3b2bcb27462ba9c);
+        
+
+        marker_f3300c613cb344bfab8c018bdf82cfe9.bindPopup(popup_e4efb743f42c445ba31aabafee270899)
+        ;
+
+        
+    
+    
+            var marker_bd68cb64f40e421c88f1dff3ef223236 = L.marker(
+                [55.962692000000004, -3.178664],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_fd1150f1545d435bb6d3f8bcc08d1c85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_634ceb71c2f54f9286fcda27f857230d = $(`<div id="html_634ceb71c2f54f9286fcda27f857230d" style="width: 100.0%; height: 100.0%;">Scotland, together, persevere, NHS:1</div>`)[0];
+            popup_fd1150f1545d435bb6d3f8bcc08d1c85.setContent(html_634ceb71c2f54f9286fcda27f857230d);
+        
+
+        marker_bd68cb64f40e421c88f1dff3ef223236.bindPopup(popup_fd1150f1545d435bb6d3f8bcc08d1c85)
+        ;
+
+        
+    
+    
+            var marker_04f2b429a9c74fc1955f1a70fc53132d = L.marker(
+                [55.945211, -3.240524],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_08213fc19454447fa29893910877b412 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ddb2745ce1e4d7ebc3c4d382ea18537 = $(`<div id="html_7ddb2745ce1e4d7ebc3c4d382ea18537" style="width: 100.0%; height: 100.0%;">Armoury mural:1</div>`)[0];
+            popup_08213fc19454447fa29893910877b412.setContent(html_7ddb2745ce1e4d7ebc3c4d382ea18537);
+        
+
+        marker_04f2b429a9c74fc1955f1a70fc53132d.bindPopup(popup_08213fc19454447fa29893910877b412)
+        ;
+
+        
+    
+    
+            var marker_1bc6a4e9a8a74440a0d8b350373b439f = L.marker(
+                [55.945269999999994, -3.240296],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_92ce684ed6034fc59314273daf03b72d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca18ae538f2047b5af08b568c015f337 = $(`<div id="html_ca18ae538f2047b5af08b568c015f337" style="width: 100.0%; height: 100.0%;">Graffiti in Roseburn Park:1</div>`)[0];
+            popup_92ce684ed6034fc59314273daf03b72d.setContent(html_ca18ae538f2047b5af08b568c015f337);
+        
+
+        marker_1bc6a4e9a8a74440a0d8b350373b439f.bindPopup(popup_92ce684ed6034fc59314273daf03b72d)
+        ;
+
+        
+    
+    
+            var marker_9db7d662b6974114b40a7a4310fe9bb8 = L.marker(
+                [55.926331000000005, -3.269629],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_5f1824833ae14ad3b2a1d5ea63b148c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f3897c3557749329796199949d0678a = $(`<div id="html_3f3897c3557749329796199949d0678a" style="width: 100.0%; height: 100.0%;">Free Speech:1</div>`)[0];
+            popup_5f1824833ae14ad3b2a1d5ea63b148c0.setContent(html_3f3897c3557749329796199949d0678a);
+        
+
+        marker_9db7d662b6974114b40a7a4310fe9bb8.bindPopup(popup_5f1824833ae14ad3b2a1d5ea63b148c0)
+        ;
+
+        
+    
+    
+            var marker_10801ca4a5a54ed2a790472f2d4be77a = L.marker(
+                [55.966275, -3.17577],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_1e6e5e87be6b4b83adefb855d7f904da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a84801457e56499c8aac3776c638038f = $(`<div id="html_a84801457e56499c8aac3776c638038f" style="width: 100.0%; height: 100.0%;">Unity:1</div>`)[0];
+            popup_1e6e5e87be6b4b83adefb855d7f904da.setContent(html_a84801457e56499c8aac3776c638038f);
+        
+
+        marker_10801ca4a5a54ed2a790472f2d4be77a.bindPopup(popup_1e6e5e87be6b4b83adefb855d7f904da)
+        ;
+
+        
+    
+    
+            var marker_d4670fb1089945f59217130326517f8b = L.marker(
+                [55.96774, -3.1739900000000003],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_addfc45eb7ac4c1e8172f6e8cbbc7613 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aae221776454411f8c629926caef15c2 = $(`<div id="html_aae221776454411f8c629926caef15c2" style="width: 100.0%; height: 100.0%;">The Protest:1</div>`)[0];
+            popup_addfc45eb7ac4c1e8172f6e8cbbc7613.setContent(html_aae221776454411f8c629926caef15c2);
+        
+
+        marker_d4670fb1089945f59217130326517f8b.bindPopup(popup_addfc45eb7ac4c1e8172f6e8cbbc7613)
+        ;
+
+        
+    
+    
+            var marker_abf6d5d805fe4721ac9f1b367e5f36f8 = L.marker(
+                [55.980129000000005, -3.218357],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_c02d02a72dd54ff68145cb62c491b1e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6a4208289904f639e67d8af45546feb = $(`<div id="html_b6a4208289904f639e67d8af45546feb" style="width: 100.0%; height: 100.0%;">Poseidon:1</div>`)[0];
+            popup_c02d02a72dd54ff68145cb62c491b1e5.setContent(html_b6a4208289904f639e67d8af45546feb);
+        
+
+        marker_abf6d5d805fe4721ac9f1b367e5f36f8.bindPopup(popup_c02d02a72dd54ff68145cb62c491b1e5)
+        ;
+
+        
+    
+    
+            var marker_3145cc95da164039bb497bc4096548df = L.marker(
+                [55.951, -3.122],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_b6917351429d4af8b5ddfce8709ea1c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e582b195c8704a5fa77d5724276b6a3e = $(`<div id="html_e582b195c8704a5fa77d5724276b6a3e" style="width: 100.0%; height: 100.0%;">Figgate Park Wild life:1</div>`)[0];
+            popup_b6917351429d4af8b5ddfce8709ea1c8.setContent(html_e582b195c8704a5fa77d5724276b6a3e);
+        
+
+        marker_3145cc95da164039bb497bc4096548df.bindPopup(popup_b6917351429d4af8b5ddfce8709ea1c8)
+        ;
+
+        
+    
+    
+            var marker_c3ca6a9a3e3c4925bd5554adce9e3b14 = L.marker(
+                [55.95, -3.128],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_0ae036223d9c46b78c04b6d213f20745 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c996f4fd1594cac899be8ae196bb7f9 = $(`<div id="html_1c996f4fd1594cac899be8ae196bb7f9" style="width: 100.0%; height: 100.0%;">Figgate Park Wild life:1</div>`)[0];
+            popup_0ae036223d9c46b78c04b6d213f20745.setContent(html_1c996f4fd1594cac899be8ae196bb7f9);
+        
+
+        marker_c3ca6a9a3e3c4925bd5554adce9e3b14.bindPopup(popup_0ae036223d9c46b78c04b6d213f20745)
+        ;
+
+        
+    
+    
+            var marker_bdcc461f3fa9406d9743581fc1839bc7 = L.marker(
+                [55.951, -3.1260000000000003],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_c98f2d1aafef4fa484fa7cef6ab40456 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcfeb3b6ace74dbf84aba9f566c45e61 = $(`<div id="html_bcfeb3b6ace74dbf84aba9f566c45e61" style="width: 100.0%; height: 100.0%;">Figgate Park Wild life:1</div>`)[0];
+            popup_c98f2d1aafef4fa484fa7cef6ab40456.setContent(html_bcfeb3b6ace74dbf84aba9f566c45e61);
+        
+
+        marker_bdcc461f3fa9406d9743581fc1839bc7.bindPopup(popup_c98f2d1aafef4fa484fa7cef6ab40456)
+        ;
+
+        
+    
+    
+            var marker_66122c8aedba4b75ac25b078eaae8b52 = L.marker(
+                [55.951, -3.1210000000000004],
+                {}
+            ).addTo(marker_cluster_50c0eb84d01343acbdc3d1007d8eea2f);
+        
+    
+        var popup_f130a972c1864a1586412e9dc1bef60d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d308a6d8cdcd405cad061a091436b006 = $(`<div id="html_d308a6d8cdcd405cad061a091436b006" style="width: 100.0%; height: 100.0%;">Figgate Park Wild life:1</div>`)[0];
+            popup_f130a972c1864a1586412e9dc1bef60d.setContent(html_d308a6d8cdcd405cad061a091436b006);
+        
+
+        marker_66122c8aedba4b75ac25b078eaae8b52.bindPopup(popup_f130a972c1864a1586412e9dc1bef60d)
+        ;
+
+        
+    
+</script>
