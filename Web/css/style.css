@@ -2,7 +2,7 @@ html, body {
 	margin: 0;
 	padding: 0;  
 	background: #F6E9E1;
-	height:4500px;
+	height:5120px;
 }
 html{
 	overflow-x:hidden; 
@@ -443,7 +443,7 @@ color: #FFDA5C;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
-		line-height: 21px;
+		line-height: 25px;
 		text-align: right;
 		
 		color: #174799;
@@ -494,7 +494,7 @@ color: #FFDA5C;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 18px;
-		line-height: 21px;
+		line-height: 25px;
 		
 		color: #174799;
 	}
@@ -505,4 +505,64 @@ color: #FFDA5C;
 	height: 40px;
 	left: 947px;
 	top: 4280px;
+}
+
+#container6-back{
+	position: absolute;
+	left: 0px;
+	top: 4500px;
+}
+
+#wordcloud{
+	position: absolute;
+	left: 100px;
+	top: 4540px;
+}
+
+#container6-title{
+	position: absolute;
+	left: 900px;
+	top: 4600px;
+	
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: medium;
+	font-size: 36px;
+	line-height: 160%;
+	/* or 58px */
+	
+	
+	color: #174799;
+}
+
+#container6-words{
+	position: absolute;
+	left: 900px;
+	top: 4720px;
+	width: 360px;
+
+	
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	
+	color: #174799;
+}
+
+#name{
+	position: absolute;
+	left: 500px;
+	top: 5080px;
+	width: 660px;
+	
+	
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	
+	color: #174799;
 }
