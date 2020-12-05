@@ -28,15 +28,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.js"></script>
 </head>
 <body>    
     <body>
-               <div title="title" id="title" data-aos="fade-down">Edinburgh Art Time</div>
+               <div title="title" id="title" data-aos="fade-down">PUBLIC ART TIME</div>
     			<div class="folium-map" id="map_70d04cd298624276acf38863a4538538" ></div>
     			<div class="folium-map2" id="map_2d0f16c0bd71496fad1a62e03059d3ec" ></div>
          
-    	  <iframe id="timeline" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1d0juPK1P6lKWhVW9ROy3GvKOjCncQeZdeK1k6s3Stek&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
-    
+    	
     <div class='container1' id="container1">
     	<div class='container1-left' id='container1-left'>
     		<div class='container1-left-title' id='container1-left-title'>
@@ -54,72 +56,162 @@
     </div>
     
     <div class='container2-plots' id='container2-plots'>
-    	<div class='container2-plots-title' id='container2-plots-title' data-aos="fade-down">General</div>
+    	<div class='container2-plots-title' id='container2-plots-title' data-aos="fade-down">Instruction</div>
 		
 	<div class='container2-plots1'  >
 		<div class='container2-rectangle1' id='container2-rectangle1' data-aos="zoom-in">
-    			 <img src="img/Rectangle1.png" width='269' /></div>
+    			 <img src="img/Rectangle1.png" width='269' height='420' /></div>
 				 <div class='container2-pic1' id='container2-pic1'  data-aos="zoom-in">
-    		 <img src="img/general1.png" width='281' /></div>
+    		 <img src="img/instruction1.png" width='250' /></div>
 			 <div class='container2-title1' id='container2-title1'  data-aos="zoom-in">
-    		Year of distrubtion
+    		Distrubtion overview
     	</div>
-		<div clas='container2-words1' id='container2-words1'  data-aos="zoom-in">Most appearance of arts’ year is 1900-2000(40.1%), followed by 1800-1900 with the figure of 30.3. Next came to 2000s with 28.3%. The year smaller than 1800 is the least with 1.3%.
+		<div clas='container2-words1' id='container2-words1'  data-aos="zoom-in">
+			Heatmap shows the space distribution in Edinburgh.</br>
+			Pie chart shows the time distribution varied from different centuries in Edinburgh.
 		</div>
     			 </div>
 				 
 				 
 		<div class='container2-plots2'>		 
     			 <div class='container2-rectangle2' id='container2-rectangle2'  data-aos="zoom-in">
-    			 	 <img src="img/Rectangle2.png" width='269' /></div>
+    			 	 <img src="img/Rectangle2.png" width='269' height='420' /></div>
 					 <div class='container2-pic2' id='container2-pic2'  data-aos="zoom-in">
-    		 	 <img src="img/general2.png" width='250' /></div>
+    		 	 <img src="img/instruction2.png" width='250' /></div>
 				 <div class='container2-title2' id='container2-title2'  data-aos="zoom-in">
-    		Location Scatterplot
+    		Interaction mode
     	</div>
 		<div clas='container2-words2' id='container2-words2'  data-aos="zoom-in">
-	   The location of arts in Edinburgh is mainly with longitude of 3.2 and latitude of 55.95. 
+	 Public art time in Edinburgh.
+	 </br>
+	 To find more details of public arts, try touch the coloumns on the physical model.
 	   </div>
     	</div>
 		</div>
 		
 		<div class='container2-plots3' >		
     	<div class='container2-rectangle3' id='container2-rectangle3'  data-aos="zoom-in">
-    			 	 <img src="img/Rectangle3.png" width='269' />
+    			 	 <img src="img/Rectangle3.png" width='269' height='420' />
     	</div>
     			 <div class='container2-pic3' id='container2-pic3'  data-aos="zoom-in">
-    			 	 <img src="img/general3.png" width='256' /></div>
+    			 	 <img src="img/instruction3.png" width='250' /></div>
 					 <div class='container2-title3' id='container2-title3'  data-aos="zoom-in">
-    		Existing date distribution of arts
+    		Details display
     	</div> 
 		 <div clas='container2-words3' id='container2-words3'  data-aos="zoom-in">
-		   The existing date for arts in Edinburgh is mainly between 1800 and 2000. And it has a small number between 1600 and 1800. 
+		  The website for Interactive Timeline shown in the screen unfold the details information of specific marks in public art when touching. 
+
 	   </div>
     	</div>
 		
 	</div>
 	
+	<div class="container-timeline" id="container-timeline">
+	<div class='container-timeline-title' id='container-timeline-title'>
+		<p data-aos="fade-down">Interactive Timeline</p>
+	</div>
+	<iframe id="timeline" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1d0juPK1P6lKWhVW9ROy3GvKOjCncQeZdeK1k6s3Stek&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+	</div>
+	
 	<div class='container3' id='container3'>
-		<div class='container3-title' id='container3-title' data-aos="fade-down">HeatMap of Edinburgh</div>
-		<div class='container3-words' id='container3-words' data-aos="fade-right">Use different colours to show the  distribution of Arts.</div>
-	<div class='container3-zoom' id='container3-zoom' data-aos="fade-right"><img src="img/Zoom.png" width='240' /></div>
+		<div class='container3-title' id='container3-title' data-aos="fade-down">
+			General</div>
+		
+		
+		<div class='chart1'>
+			<div class='container3-back' id='container3-back'  data-aos="zoom-in">
+				 	 <img src="img/Rectangle4.png" width='1093' />
+		</div>
+		<div class="container3-title1" id="container3-title1" data-aos="zoom-in">
+			Year of Art Distribution
+			</div>
+		<div class="chart1" style="position: relative; width:600px" data-aos="zoom-in">
+		    <canvas id="PieChart" data-aos="zoom-in"></canvas>
+		</div>
+		<div class="container3-words1" id="container3-words1" data-aos="zoom-in">
+			Most appearance of arts’ year is 1900-2000(40.1%), followed by 1800-1900 with the figure of 30.3. Next came to 2000s with 28.3%. The year smaller than 1800 is the least with 1.3%.
+			</div>
+			</div>
+		
+		<div class='chart2'>
+			<div class='container3-back2' id='container3-back2'  data-aos="zoom-in">
+					 	 <img src="img/Rectangle5.png" width='1093' />
+			</div>
+		<div class="container3-title2" id="container3-title2">
+			The amount of Arts
+			</div>
+		<div class="chart2" style="position: relative; width:600px;">
+		    <canvas id="BarChart" data-aos="zoom-in"></canvas>
+		</div>
+		
+		<div class="container3-words2" id="container3-words2" >
+			1900-2000 obtained the most the amount of newly appearance public arts while the year smaller than 1800 had the smallest number.
+			The number of newly established public arts increased with each century.
+			</div>
+			</div>
+		
+		<div class='chart3'>
+			<div class='container3-back3' id='container3-back3'  data-aos="zoom-in">
+						 	 <img src="img/Rectangle6.png" width='1093' />
+				</div>
+			<div class="container3-title3" id="container3-title3">
+				Location Distribution
+				</div>
+			<div class="chart3" style="position: relative; width:600px;">
+			    <canvas id="ScatterChart" data-aos="zoom-in"></canvas>
+			</div>
+			
+			<div class="container3-words3" id="container3-words3" >
+				The location of arts in Edinburgh is mainly with longitude of 3.2 and latitude of 55.95.
+				And they mainly concentrated in City Centre.
+				</div>
+		</div>
+	
+	<div class="container5" id="container5">
+		<div class='container5-title' id='container5-title' data-aos="fade-right">Arts Heatmap</div>
+		
+		<div class='container5-words' id='container5-words' data-aos="fade-right">Use different colours to show the  distribution of Arts.</div>
+	<div class='container5-zoom' id='container5-zoom' data-aos="fade-right"><img src="img/Zoom.png" width='240' /></div>
 	        <div class="folium-map" id="map_2d0f16c0bd71496fad1a62e03059d3ec" data-aos="fade-left"></div>
 	 </div>
-	 </div>
- 
+	
+	
+	
  <div class='container4' id='container4'>
- 	<div class='container4-title' id='container4-title' data-aos="fade-down">Arts Position</div>
+ 	<div class='container4-title' id='container4-title' data-aos="fade-left">Arts Position</div>
  	<div class='container4-words' id='container4-words' data-aos="fade-left">Arts’ positions are marked on the Map. Click the position point to see the art details.</div>
- <div class='container4-zoom' id='container4-zoom' data-aos="fade-left"><img src="img/Zoom.png"width='240' /></div>
+ <div class='container4-zoom' id='container4-zoom' data-aos="fade-left"><img src="img/Zoom2.png" width='95' /></div>
          <div class="folium-map" id="map_70d04cd298624276acf38863a4538538" data-aos="fade-right">  
   </div>
   </div>
-  
-	
+
+<div class="container6" id="container6">
+	<div class="container6-back" id="container6-back" data-aos="fade-down">
+		<img src="img/material-background.png" width='1440' /></div>
+	</div>
+	 <div class='container6-title' id='container6-title' data-aos="fade-down">
+		 Public Art Type
+	 </div>
+	 <div class="wordcloud" id="wordcloud" data-aos="fade-down">
+		 <img src="img/PublicDataType.png" width='600' /></div>
+	 </div>
+	 <div class="container6-words" id="container6-words" data-aos="fade-down">
+	 	Main type for public art in Edinburgh is Statue and Sculpture. 
+	 	</div>
+</div>
+
+<div class="name" id="name">
+	Public Art Time - Yeru Lin, Xinyan Chai, Ziyun Yang, Zihan Yuan, Wenyun Deng
+</div>
 
 </body>
 <script src='js/aos.js'></script>
 <script src='jquery-2.2.3.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js"></script>
+
+</script>
     <script>
       AOS.init({
 		   easing: 'ease-out-back',
@@ -127,6 +219,93 @@
       })
 
     </script>
+	
+<script>
+	var ctx = document.getElementById('PieChart').getContext('2d');
+	var data = {
+	    datasets: [{
+	        data: [1.3,30.3,40.1,28.3],  
+	        backgroundColor:["#BCB8B5",'#E6C1AE',"#D0ABA4","#EED4B6"]  
+	    }],
+	
+	    labels: [ 
+	        '<1800','1800-1900',
+	        '1900-2000','>2000'
+	    ]
+	  };
+	
+	  var myPieChart = new Chart(ctx, {
+	   type: 'pie',
+	   data: data
+	});
+
+</script>
+<script>
+var ctx = document.getElementById('BarChart').getContext('2d');
+var chart = new Chart(ctx, {
+   
+    type: 'bar',
+
+    data: {
+        labels: ["<1800", "1800-1900", "1900-2000", ">2000"],
+        datasets: [{
+            label: "Amount of Arts for different years",
+            backgroundColor: ['#c0e1ee','#52adbc','#4b9ca7','#79c8d8'],
+            data: [2,46,61,43],
+        }]
+    },
+
+    options: {}
+});
+</script>
+
+<script>
+	var ctx = document.getElementById('ScatterChart').getContext('2d');
+	var scatterChart = new Chart(ctx, {
+	    type: "scatter",
+	    data: {
+	        datasets: [
+	            {
+	                label: "Location Scatterplot",
+	                data: [
+						{x:55.966842, y:-3.207415}, {x:55.9492, y:-3.1905}, {x:55.9548, y:-3.1830000000000003}, {x:55.9545, y:-3.1845}, {x:55.9535, y:-3.1783}, {x:55.9534, y:-3.1858}, {x:55.9535, y:-3.1861}, {x:55.90468, y:-3.238737}
+						, {x:55.9571, y:-3.1372}, {x:55.9754, y:-3.1668}, {x:55.9545, y:-3.1917}, {x:55.9542, y:-3.1932}, {x:55.9535, y:-3.1973}, {x:55.953,y: -3.2004}, {x:55.9518, y:-3.2077}, {x:55.9532, y:-3.2076}, {x:55.9525, y:-3.2035}
+						, {x:55.9501, y:-3.1903}, {x:55.9489, y:-3.1979}, {x:55.949, y:-3.1969}, {x:55.9469, y:-3.1913}, {x:55.9489, y:-3.1974}, {x:55.9489, y:-3.1981}, {x:55.9495, y:-3.1917}, {x:55.94738, y:-3.1897900000000003}, {x:55.9496, y:-3.1951}
+						, {x:55.952399, y:-3.193304}, {x:55.9535, y:-3.1892}, {x:55.9517, y:-3.1973}, {x:55.951, y:-3.1983}, {x:55.95005,y: -3.202994}, {x:55.9521, y:-3.1951}, {x:55.9525, y:-3.1927}, {x:55.9522, y:-3.1944}, {x:55.9504, y:-3.205}, {x:55.950264,y: -3.205931}
+						, {x:55.9093, y:-3.3200300000000005}, {x:55.9453, y:-3.1911}, {x:55.9403, y:-3.1833}, {x:55.944818, y:-3.19043}, {x:55.946, y:-3.1854}, {x:55.942, y:-3.2003}, {x:55.9418, y:-3.1988}, {x:55.945346, y:-3.188812}, {x:55.921773, y:-3.1717604}, {x:55.9497, y:-3.2139}
+						, {x:55.864532, y:-3.200328}, {x:55.865794, y:-3.2010389999999997}, {x:55.964916,y: -3.2043779999999997}, {x:55.964718, y:-3.206889}, {x:55.96508, y:-3.210991}, {x:55.962917, y:-3.211345}, {x:55.96511, y:-3.209825}, {x:55.965167,y: -3.2098150000000003},{x:55.964789, y:-3.2038279999999997}
+						, {x:55.9707, y:-3.1717}, {x:55.978, y:-3.16933}, {x:55.9517,y: -3.1881}, {x:55.956388,y: -3.1873810000000002},{x:55.956837, y:-3.18675}, {x:55.95941, y:-3.2042040000000003}, {x:55.9489, y:-3.1974}, {x:55.9501, y:-3.1945}, {x:55.9529, y:-3.1736}, {x:55.948862, y:-3.201779}
+						, {x:55.948551, y:-3.198598}, {x:55.948577, y:-3.198598}, {x:55.947827, y:-3.194772}, {x:55.94956, y:-3.192625}, {x:55.949548,y: -3.19422}, {x:55.9514,y: -3.1994}, {x:55.9508, y:-3.2026}, {x:55.950556, y:-3.2019439999999997}, {x:55.9511, y:-3.1973}, {x:55.950229,y: -3.202055}, {x:55.95, y:-3.2023}
+						, {x:55.950678, y:-3.194904}, {x:55.933225,y: -3.3077739999999998}, {x:55.938706, y:-3.314168}, {x:55.938103, y:-3.3169519999999997}, {x:55.937589, y:-3.3144669999999996}, {x:55.937226, y:-3.312775}, {x:55.936979, y:-3.3113620000000004}, {x:55.936903, y:-3.314972}, {x:55.933042, y:-3.316653}
+						, {x:55.9752, y:-3.1910000000000003}, {x:55.9485, y:-3.2123}, {x:55.9469, y:-3.2062}, {x:55.948145, y:-3.208686}, {x:55.9514, y:-3.222946}, {x:55.950759, y:-3.2271259999999997}, {x:55.951299, y:-3.224912}, {x:55.94388266,y: -3.188728092}, {x:55.94361556, y:-3.189746575}, {x:55.947339,y: -3.18785}, {x:55.947591, y:-3.186359}
+						, {x:55.945964, y:-3.198636}, {x:55.938167, y:-3.1696880000000003}, {x:55.938532,y: -3.169644}, {x:55.93726, y:-3.1711099999999997}, {x:55.92259605, y:-3.1750005480000003}, {x:55.92259304, y:-3.17530632}, {x:55.923971, y:-3.172765}, {x:55.923035, y:-3.171533}, {x:55.924015, y:-3.174405}, {x:55.923065, y:-3.17752}
+						, {x:55.864975, y:-3.201746}, {x:55.97364409, y:-3.17058848}, {x:55.971693, y:-3.176815}, {x:55.9549, y:-3.1745}, {x:55.908597, y:-3.256297}, {x:55.909542, y:-3.249274}, {x:55.94503,y: -3.249841}, {x:55.944117, y:-3.271337}, {x:55.979722, y:-3.294227}, {x:55.9836, y:-3.17636}, {x:55.956344, y:-3.186225}
+						, {x:55.954623, y:-3.193084}, {x:55.954053, y:-3.194381}, {x:55.949764, y:-3.190069}, {x:55.951574, y:-3.179363}, {x:55.949495, y:-3.190013}, {x:55.951215, y:-3.18866}, {x:55.94757, y:-3.18893}, {x:55.948417, y:-3.203388}, {x:55.950833, y:-3.202028}, {x:55.950939, y:-3.198579}, {x:55.944755,y: -3.187452}, {x:55.944579, y:-3.187582}
+						, {x:55.951288, y:-3.227125}, {x:55.951917, y:-3.2233400000000003}, {x:55.951182, y:-3.225086}, {x:55.945393, y:-3.189116}, {x:55.942908, y:-3.189075}, {x:55.942748, y:-3.18855}, {x:55.945175, y:-3.1985240000000004}, {x:55.937365,y: -3.169483}, {x:55.865174, y:-3.200375}, {x:55.96481864, y:-3.174445359}, {x:55.96859796, y:-3.173371931}, {x:55.97073971, y:-3.170117861}
+						, {x:55.962692000000004, y:-3.178664}, {x:55.945211, y:-3.240524}, {x:55.945269999999994, y:-3.240296}, {x:55.926331000000005, y:-3.269629}, {x:55.966275,y: -3.17577}, {x:55.96774, y:-3.1739900000000003}, {x:55.980129000000005, y:-3.218357}, {x:55.951, y:-3.122}, {x:55.95, y:-3.128}, {x:55.951, y:-3.1260000000000003}, {x:55.951, y:-3.1210000000000004}
+						
+	                 
+	                ],
+					backgroundColor: '#F7C4B4',
+					bordercolor:'#ECC6B0',
+	            }
+	        ]
+	    },
+	    options: {
+	        scales: {
+	            xAxes: [
+	                {
+	                    type: "linear",
+	                    position: "bottom"
+	                }
+	            ]
+	        }
+	    }
+	});
+
+</script>
+	
+	
 	
 <script>    
  var map_2d0f16c0bd71496fad1a62e03059d3ec = L.map(
