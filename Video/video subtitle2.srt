@@ -1,0 +1,99 @@
+0
+00:00:14,340 --> 00:00:16,650
+The Edinburgh,
+
+1
+00:00:16,651 --> 00:00:23,070
+a city-state with profound historical and cultural heritage. As the capital of Scotland,
+
+2
+00:00:23,071 --> 00:00:23,640
+Edinburgh,
+
+3
+00:00:23,641 --> 00:00:29,070
+has been a centre of art and culture since medieval times.
+
+4
+00:00:29,071 --> 00:00:30,300
+Over the years,
+
+5
+00:00:30,301 --> 00:00:34,320
+it has created the unique cultural scenes of Edinburgh,
+
+6
+00:00:34,321 --> 00:00:36,510
+public art and cultural stories.
+
+7
+00:00:36,511 --> 00:00:38,100
+that can be seen everywhere.
+
+8
+00:00:39,090 --> 00:00:47,520
+Our challenge: cultural Map of Edinburgh provide us with detailed information on public art resources in Edinburgh.
+
+9
+00:00:47,521 --> 00:00:50,340
+After proper analysis of the data,
+
+10
+00:00:50,341 --> 00:00:57,810
+we tried to use digital and physical techniques to show people this number and the scale of public art in Edinburgh.
+
+11
+00:00:57,811 --> 00:01:01,140
+within long tradition of the public art,
+
+12
+00:01:01,141 --> 00:01:04,710
+So there is our interactive device Edinburgh
+
+13
+00:01:04,711 --> 00:01:05,520
+Art time.
+
+14
+00:01:07,980 --> 00:01:12,750
+Our installation contains physical maps and interactive screens.
+
+15
+00:01:13,740 --> 00:01:18,000
+When visitors wants to learn more about the public art in Edinburgh,
+
+16
+00:01:18,001 --> 00:01:26,910
+they find our map and saw how the public art is distributed in Edinburgh. To find more detailed information of City Center,
+
+17
+00:01:26,911 --> 00:01:29,100
+which have the most public art.
+
+18
+00:01:29,101 --> 00:01:32,010
+They can touch the columns on the physical model,
+
+19
+00:01:32,011 --> 00:01:34,410
+the websites shown the screen unfold.
+
+20
+00:01:34,411 --> 00:01:37,740
+the information of specific marks in public art.
+
+21
+00:01:39,480 --> 00:01:48,630
+The Web page gives visitors instructions on how to use the installation, displays specific information about the art they clicked on.
+
+22
+00:01:48,631 --> 00:01:50,580
+And if visitors are interested,
+
+23
+00:01:50,581 --> 00:01:55,650
+they can view relevant data about the overall art of Edinburgh.
+
+24
+00:01:55,651 --> 00:02:04,350
+Our audience is visitors to Edinburgh and will hope to increase their interest and encouraged them to further explore the public part of this city.
